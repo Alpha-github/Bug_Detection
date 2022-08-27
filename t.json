@@ -1,0 +1,2372 @@
+[
+    {
+        "sha": "17ad0d80de65ace99e601c314b5e31df5119b252",
+        "node_id": "C_kwDOAlosUtoAKDE3YWQwZDgwZGU2NWFjZTk5ZTYwMWMzMTRiNWUzMWRmNTExOWIyNTI",
+        "commit": {
+            "author": {
+                "name": "Kamil Gabryjelski",
+                "email": "kamil.gabryjelski@gmail.com",
+                "date": "2022-08-25T16:50:31Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-25T16:50:31Z"
+            },
+            "message": "chore: Add new e2e tests for Explore (#21184)\n\n* chore(explore): Add cypress test for creating chart from dataset list\r\n\r\n* Add cypress test for creating chart from sqllab query\r\n\r\n* Fix the test for editing dataset in exploer\r\n\r\n* Fix lint\r\n\r\n* Fix tests",
+            "tree": {
+                "sha": "7d4b755ebeb649ede4c5681da1b9be3a4afe3bbb",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/7d4b755ebeb649ede4c5681da1b9be3a4afe3bbb"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/17ad0d80de65ace99e601c314b5e31df5119b252",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjB6hXCRBK7hj4Ov3rIwAAqIYIAIIUXRuRxboJLwa35kxU9e3D\na4xwsAlKrdmyFzKFm51WmA09q4JH9DhDxRe7mhIFdIbD91RMwdcc+Ti0oUIwlm4M\ndKM16Nhb1CVFInBlCHlXUa9BhnV6Rpf0zzoxL9MDcUly+vBXiS5IxUD9oIC8Bwpe\nD/9qythmvaMVTVwAP5sys9ki9v29qLZblNy+Y9SDVaSjn6tBzSpmGnQ7hdbB7Hha\nYoF4bEXDDp8K1pc1hJLUw+c/yMIEIbTi0kVcrIenueP4Vty4voY+kpsfaOh4XYyS\nRPX2IqYdLWD9a5Hj/xoe8umVtHYaT9PxrAOM8Hueh2MLAHZU8S5F0Irizo+S+xA=\n=+0Gc\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7d4b755ebeb649ede4c5681da1b9be3a4afe3bbb\nparent 994e1f6bdcad30000804343ec87159eee36c9ace\nauthor Kamil Gabryjelski <kamil.gabryjelski@gmail.com> 1661446231 +0200\ncommitter GitHub <noreply@github.com> 1661446231 +0200\n\nchore: Add new e2e tests for Explore (#21184)\n\n* chore(explore): Add cypress test for creating chart from dataset list\r\n\r\n* Add cypress test for creating chart from sqllab query\r\n\r\n* Fix the test for editing dataset in exploer\r\n\r\n* Fix lint\r\n\r\n* Fix tests"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/17ad0d80de65ace99e601c314b5e31df5119b252",
+        "html_url": "https://github.com/apache/superset/commit/17ad0d80de65ace99e601c314b5e31df5119b252",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/17ad0d80de65ace99e601c314b5e31df5119b252/comments",
+        "author": {
+            "login": "kgabryje",
+            "id": 15073128,
+            "node_id": "MDQ6VXNlcjE1MDczMTI4",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15073128?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kgabryje",
+            "html_url": "https://github.com/kgabryje",
+            "followers_url": "https://api.github.com/users/kgabryje/followers",
+            "following_url": "https://api.github.com/users/kgabryje/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kgabryje/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kgabryje/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kgabryje/subscriptions",
+            "organizations_url": "https://api.github.com/users/kgabryje/orgs",
+            "repos_url": "https://api.github.com/users/kgabryje/repos",
+            "events_url": "https://api.github.com/users/kgabryje/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kgabryje/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "994e1f6bdcad30000804343ec87159eee36c9ace",
+                "url": "https://api.github.com/repos/apache/superset/commits/994e1f6bdcad30000804343ec87159eee36c9ace",
+                "html_url": "https://github.com/apache/superset/commit/994e1f6bdcad30000804343ec87159eee36c9ace"
+            }
+        ]
+    },
+    {
+        "sha": "994e1f6bdcad30000804343ec87159eee36c9ace",
+        "node_id": "C_kwDOAlosUtoAKDk5NGUxZjZiZGNhZDMwMDAwODA0MzQzZWM4NzE1OWVlZTM2YzlhY2U",
+        "commit": {
+            "author": {
+                "name": "EugeneTorap",
+                "email": "evgenykrutpro@gmail.com",
+                "date": "2022-08-25T13:35:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-25T13:35:20Z"
+            },
+            "message": "chore: bump clickhouse-sqlalchemy 0.2.2 (#21195)",
+            "tree": {
+                "sha": "66d545eed488c725732b5f555f9eb0b791bdf2a6",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/66d545eed488c725732b5f555f9eb0b791bdf2a6"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/994e1f6bdcad30000804343ec87159eee36c9ace",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjB3qYCRBK7hj4Ov3rIwAAyH0IADzNmkj18DgDgdlL4IKg0nWg\nqE/6cdwopVDRFKOzBWbxmfTRW6/t/lWeHTsh9agdyYn/3i/ujHuqLVLvCHpGJZWb\nhOm8BcoLg1odwNoNAgFpcgRXQzQ+YDny4iiaOGenKbub7IIdZz+blr/KaaFjVmVQ\ni8D1E2hYtxyWqAj3FL+1nU1iNGfFQ9H92z2RDMePlGRhzfWLfaWdCvw62f+lm+ak\nqCsIZCJO87darVa5Je5o46mrXN4U7q7fRLAhqnw/ip/FlrpZ1Wi35/9GRSWpDFy7\nhRr2Qck6Lr28AX7caFThaR+dG85gKPR3dF7UkC7QIZVa5trrGhVBNR9ydhKmrkA=\n=KXlS\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 66d545eed488c725732b5f555f9eb0b791bdf2a6\nparent 93557e3a1ac81b4e738e99eec3eb14d65a7c72f9\nauthor EugeneTorap <evgenykrutpro@gmail.com> 1661434520 +0300\ncommitter GitHub <noreply@github.com> 1661434520 +0200\n\nchore: bump clickhouse-sqlalchemy 0.2.2 (#21195)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/994e1f6bdcad30000804343ec87159eee36c9ace",
+        "html_url": "https://github.com/apache/superset/commit/994e1f6bdcad30000804343ec87159eee36c9ace",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/994e1f6bdcad30000804343ec87159eee36c9ace/comments",
+        "author": {
+            "login": "EugeneTorap",
+            "id": 29536522,
+            "node_id": "MDQ6VXNlcjI5NTM2NTIy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29536522?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneTorap",
+            "html_url": "https://github.com/EugeneTorap",
+            "followers_url": "https://api.github.com/users/EugeneTorap/followers",
+            "following_url": "https://api.github.com/users/EugeneTorap/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneTorap/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneTorap/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneTorap/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneTorap/orgs",
+            "repos_url": "https://api.github.com/users/EugeneTorap/repos",
+            "events_url": "https://api.github.com/users/EugeneTorap/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneTorap/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "93557e3a1ac81b4e738e99eec3eb14d65a7c72f9",
+                "url": "https://api.github.com/repos/apache/superset/commits/93557e3a1ac81b4e738e99eec3eb14d65a7c72f9",
+                "html_url": "https://github.com/apache/superset/commit/93557e3a1ac81b4e738e99eec3eb14d65a7c72f9"
+            }
+        ]
+    },
+    {
+        "sha": "93557e3a1ac81b4e738e99eec3eb14d65a7c72f9",
+        "node_id": "C_kwDOAlosUtoAKDkzNTU3ZTNhMWFjODFiNGU3MzhlOTllZWMzZWIxNGQ2NWE3YzcyZjk",
+        "commit": {
+            "author": {
+                "name": "Paulo Eduardo da Silva",
+                "email": "pauloes.dev@gmail.com",
+                "date": "2022-08-25T03:48:31Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-25T03:48:31Z"
+            },
+            "message": "removing unnecessary margin for 50% fields (#21167)",
+            "tree": {
+                "sha": "9afc7dd43fcb286d3a723794d3084665a1ffb021",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/9afc7dd43fcb286d3a723794d3084665a1ffb021"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/93557e3a1ac81b4e738e99eec3eb14d65a7c72f9",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBvEPCRBK7hj4Ov3rIwAAdc0IADW4X9LiE2A2x7aJ5C95Zlgp\nZONnQRo+i5y1vmy7w3MdRlEthHizlvLNX6bWbCl7PmBx/6zNkRdWn0GNgfysHyZw\n7ciHTjfWPSF1LJcvfXhXzhemrtPuFtvfIRQ89ALwKQ9DI9A1y5/R/SFUccGlpI61\nZTUgQgJZsbcO3n1/vcWy0KmDJpme3IzkcOKHZ8yMdXrgWI5+SIZjA8ZsLtPumavm\nyG+46OTilziM2zU1z9mtZQaJ3DemZT0219KsiwjJL16ocIX0hMlV082xV+2otRha\nONVTFK4fmpLkFEuXIzybcCzXMadAbVGjK9GzRCegn68sFI2F2nVDB/NxNMUco9o=\n=e+J6\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 9afc7dd43fcb286d3a723794d3084665a1ffb021\nparent 74e40c2de1760b9d1f08f9eaff3a064fcf834fe4\nauthor Paulo Eduardo da Silva <pauloes.dev@gmail.com> 1661399311 -0300\ncommitter GitHub <noreply@github.com> 1661399311 +0800\n\nremoving unnecessary margin for 50% fields (#21167)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/93557e3a1ac81b4e738e99eec3eb14d65a7c72f9",
+        "html_url": "https://github.com/apache/superset/commit/93557e3a1ac81b4e738e99eec3eb14d65a7c72f9",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/93557e3a1ac81b4e738e99eec3eb14d65a7c72f9/comments",
+        "author": {
+            "login": "Paulo-Eduardo",
+            "id": 29920585,
+            "node_id": "MDQ6VXNlcjI5OTIwNTg1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29920585?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Paulo-Eduardo",
+            "html_url": "https://github.com/Paulo-Eduardo",
+            "followers_url": "https://api.github.com/users/Paulo-Eduardo/followers",
+            "following_url": "https://api.github.com/users/Paulo-Eduardo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Paulo-Eduardo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Paulo-Eduardo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Paulo-Eduardo/subscriptions",
+            "organizations_url": "https://api.github.com/users/Paulo-Eduardo/orgs",
+            "repos_url": "https://api.github.com/users/Paulo-Eduardo/repos",
+            "events_url": "https://api.github.com/users/Paulo-Eduardo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Paulo-Eduardo/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "74e40c2de1760b9d1f08f9eaff3a064fcf834fe4",
+                "url": "https://api.github.com/repos/apache/superset/commits/74e40c2de1760b9d1f08f9eaff3a064fcf834fe4",
+                "html_url": "https://github.com/apache/superset/commit/74e40c2de1760b9d1f08f9eaff3a064fcf834fe4"
+            }
+        ]
+    },
+    {
+        "sha": "74e40c2de1760b9d1f08f9eaff3a064fcf834fe4",
+        "node_id": "C_kwDOAlosUtoAKDc0ZTQwYzJkZTE3NjBiOWQxZjA4ZjllYWZmM2EwNjRmY2Y4MzRmZTQ",
+        "commit": {
+            "author": {
+                "name": "Paulo Eduardo da Silva",
+                "email": "pauloes.dev@gmail.com",
+                "date": "2022-08-25T03:44:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-25T03:44:16Z"
+            },
+            "message": "removing bottom margin on CronPicker (#21140)",
+            "tree": {
+                "sha": "05ea76bb0ed6d06deb7ce8db76310266b84673a6",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/05ea76bb0ed6d06deb7ce8db76310266b84673a6"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/74e40c2de1760b9d1f08f9eaff3a064fcf834fe4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBvAQCRBK7hj4Ov3rIwAATCEIAGI6eLePeVUKr/RfzzLJoeZb\nT+iDmj9h1lmNxIliB1Vew8gBwPNGmG7qkKHnmXbTGQfJe3u+fEb9k3QylLmfw08f\n5mPkj/c/FUorpV1lYSm45bsy6Xmg5zgIcSd9AWQm/gucyCi+piCV1FCSEldScPWW\nSUI3V/mjJ/SCPFZJRLM118oPB8vpzsr8gFM7JX9rJ/R8x5kIhuIX/+PRPqfkFos2\nSFVbZ8JU2gEz+YigSDJhHxFvSGAbvY0mjx0QhzwU6uhnBscCInoBn4ApZI1y7iGe\nWU5TWizmkGCuXYBYv7TNI8mCUFpMWeTQz77GEBrOg5mcMpgdiWAUTtBRc60AWj4=\n=CD8y\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 05ea76bb0ed6d06deb7ce8db76310266b84673a6\nparent da3401a6987538fa69e791cd1096a4400972a424\nauthor Paulo Eduardo da Silva <pauloes.dev@gmail.com> 1661399056 -0300\ncommitter GitHub <noreply@github.com> 1661399056 +0800\n\nremoving bottom margin on CronPicker (#21140)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/74e40c2de1760b9d1f08f9eaff3a064fcf834fe4",
+        "html_url": "https://github.com/apache/superset/commit/74e40c2de1760b9d1f08f9eaff3a064fcf834fe4",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/74e40c2de1760b9d1f08f9eaff3a064fcf834fe4/comments",
+        "author": {
+            "login": "Paulo-Eduardo",
+            "id": 29920585,
+            "node_id": "MDQ6VXNlcjI5OTIwNTg1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29920585?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Paulo-Eduardo",
+            "html_url": "https://github.com/Paulo-Eduardo",
+            "followers_url": "https://api.github.com/users/Paulo-Eduardo/followers",
+            "following_url": "https://api.github.com/users/Paulo-Eduardo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Paulo-Eduardo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Paulo-Eduardo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Paulo-Eduardo/subscriptions",
+            "organizations_url": "https://api.github.com/users/Paulo-Eduardo/orgs",
+            "repos_url": "https://api.github.com/users/Paulo-Eduardo/repos",
+            "events_url": "https://api.github.com/users/Paulo-Eduardo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Paulo-Eduardo/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "da3401a6987538fa69e791cd1096a4400972a424",
+                "url": "https://api.github.com/repos/apache/superset/commits/da3401a6987538fa69e791cd1096a4400972a424",
+                "html_url": "https://github.com/apache/superset/commit/da3401a6987538fa69e791cd1096a4400972a424"
+            }
+        ]
+    },
+    {
+        "sha": "da3401a6987538fa69e791cd1096a4400972a424",
+        "node_id": "C_kwDOAlosUtoAKGRhMzQwMWE2OTg3NTM4ZmE2OWU3OTFjZDEwOTZhNDQwMDk3MmE0MjQ",
+        "commit": {
+            "author": {
+                "name": "Anthony Gainor",
+                "email": "anthony@againor.com",
+                "date": "2022-08-24T21:37:47Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-24T21:37:47Z"
+            },
+            "message": "fix(database-modal): Show a different placeholder text in Snowflake connection form (#21172)\n\n* Add new Database Modal\r\n\r\nWhen adding a new database and selecting Snowflake, the database and account fields had the same placeholder. This PR adds a placeholder prop so values can be sent dynamically by field\r\n\r\n* Call translation function for string literals\r\n\r\nCo-authored-by: Herbert Gainor <herbert.gainor@preset.io>",
+            "tree": {
+                "sha": "49e6728ced3688f818c39d80541d0d45c8291da2",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/49e6728ced3688f818c39d80541d0d45c8291da2"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/da3401a6987538fa69e791cd1096a4400972a424",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBporCRBK7hj4Ov3rIwAAAz8IAC8q790BPe5CcZ02ushCiS3j\nerdff7sww5BHduxG1tsAN7Yh1ShFtJo954EcxhkrFgthw2zTr92EFf/mGauUpjNq\nv5PjomB9+CkhxDcw6W/79DI/YomOTZGcP2Ma1HplOOU4fq04zmwPY4Huzu7GKxqh\no1JRp9XasFto4R+A7NFYfa2+Xezx6qU1odS7vKyskDOns/b71q9uaDa+iBE6Ne+i\n24E0Ml4Jq/oc8CnsvaEj5wsSj71GVln09VCIQJqQ5JJ47Gi6kodwurfWlbX8GDxD\nbC3Zj/2/QSCbuU8YGO7580QEWuuqfWqnbk1a3odrvkZvv2+SHs5tg4OTa5bfvDo=\n=Lm+0\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 49e6728ced3688f818c39d80541d0d45c8291da2\nparent d568999592bb687d862dcfbf6f76c7ff7ee5610d\nauthor Anthony Gainor <anthony@againor.com> 1661377067 -0600\ncommitter GitHub <noreply@github.com> 1661377067 -0600\n\nfix(database-modal): Show a different placeholder text in Snowflake connection form (#21172)\n\n* Add new Database Modal\r\n\r\nWhen adding a new database and selecting Snowflake, the database and account fields had the same placeholder. This PR adds a placeholder prop so values can be sent dynamically by field\r\n\r\n* Call translation function for string literals\r\n\r\nCo-authored-by: Herbert Gainor <herbert.gainor@preset.io>"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/da3401a6987538fa69e791cd1096a4400972a424",
+        "html_url": "https://github.com/apache/superset/commit/da3401a6987538fa69e791cd1096a4400972a424",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/da3401a6987538fa69e791cd1096a4400972a424/comments",
+        "author": {
+            "login": "agl-developer",
+            "id": 1985940,
+            "node_id": "MDQ6VXNlcjE5ODU5NDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1985940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/agl-developer",
+            "html_url": "https://github.com/agl-developer",
+            "followers_url": "https://api.github.com/users/agl-developer/followers",
+            "following_url": "https://api.github.com/users/agl-developer/following{/other_user}",
+            "gists_url": "https://api.github.com/users/agl-developer/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/agl-developer/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/agl-developer/subscriptions",
+            "organizations_url": "https://api.github.com/users/agl-developer/orgs",
+            "repos_url": "https://api.github.com/users/agl-developer/repos",
+            "events_url": "https://api.github.com/users/agl-developer/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/agl-developer/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d568999592bb687d862dcfbf6f76c7ff7ee5610d",
+                "url": "https://api.github.com/repos/apache/superset/commits/d568999592bb687d862dcfbf6f76c7ff7ee5610d",
+                "html_url": "https://github.com/apache/superset/commit/d568999592bb687d862dcfbf6f76c7ff7ee5610d"
+            }
+        ]
+    },
+    {
+        "sha": "d568999592bb687d862dcfbf6f76c7ff7ee5610d",
+        "node_id": "C_kwDOAlosUtoAKGQ1Njg5OTk1OTJiYjY4N2Q4NjJkY2ZiZjZmNzZjN2ZmN2VlNTYxMGQ",
+        "commit": {
+            "author": {
+                "name": "smileydev",
+                "email": "47900232+prosdev0107@users.noreply.github.com",
+                "date": "2022-08-24T17:29:22Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-24T17:29:22Z"
+            },
+            "message": "fix(database): make to display validation error msg when all cases (#20095)\n\n* fix(database): make to display validation error msg when all cases\r\n\r\n* fix(db): make to update the alert error condition\r\n\r\n* fix(db): make to add error detail display\r\n\r\n* fix(db): make to update error alert display by superset error style guide.\r\n\r\n* fix(db): make to style modal header title with h4\r\n\r\n* fix(db): make to place see more on bottom instead of top\r\n\r\n* fix(db): make to fix shortly\r\n\r\n* fix(db): make to fix lint issue\r\n\r\nCo-authored-by: Evan Rusackas <evan@preset.io>",
+            "tree": {
+                "sha": "4d92203cba53ec7d0e588a5b87e80d940cecd5d6",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/4d92203cba53ec7d0e588a5b87e80d940cecd5d6"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/d568999592bb687d862dcfbf6f76c7ff7ee5610d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBl/yCRBK7hj4Ov3rIwAA0PcIAHYQ75LNe0b6aO2tn4FU0r/7\n+X3vZ6ZJQc4z6r8boVci5fnBsFBr0HxwLNjmj+EE6TOAwPNEgUqhpuDQs5a/mZdz\nEZhsgJTIJ1tQ7cEIYhY0eLZIyz9+VNbN1QfttDYHtPIjGGuWOQjZX0F2GHcO0W6I\nM0u0LTMQCz2wiWcD6Vt2PvetUu4Lg+5613bpeWWzQTcDZUEkLKTEB/2zRp33jTWM\nIjWxJuXplFr5GyzqKb2J3sod7n5d2fp9v2id2jMYu9TGbeCEkQLQFNUDAvx1o87z\nFGirJASbBLhVJFidpuoA7z3/WsOzG5ttJB7A48txGb492OQ7OBj/iUGzczLcAGM=\n=yyf/\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4d92203cba53ec7d0e588a5b87e80d940cecd5d6\nparent 604e30b3f089f9592bef03381b0dea5dd5b70f78\nauthor smileydev <47900232+prosdev0107@users.noreply.github.com> 1661362162 -0400\ncommitter GitHub <noreply@github.com> 1661362162 -0600\n\nfix(database): make to display validation error msg when all cases (#20095)\n\n* fix(database): make to display validation error msg when all cases\r\n\r\n* fix(db): make to update the alert error condition\r\n\r\n* fix(db): make to add error detail display\r\n\r\n* fix(db): make to update error alert display by superset error style guide.\r\n\r\n* fix(db): make to style modal header title with h4\r\n\r\n* fix(db): make to place see more on bottom instead of top\r\n\r\n* fix(db): make to fix shortly\r\n\r\n* fix(db): make to fix lint issue\r\n\r\nCo-authored-by: Evan Rusackas <evan@preset.io>"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/d568999592bb687d862dcfbf6f76c7ff7ee5610d",
+        "html_url": "https://github.com/apache/superset/commit/d568999592bb687d862dcfbf6f76c7ff7ee5610d",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/d568999592bb687d862dcfbf6f76c7ff7ee5610d/comments",
+        "author": {
+            "login": "prosdev0107",
+            "id": 47900232,
+            "node_id": "MDQ6VXNlcjQ3OTAwMjMy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/47900232?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/prosdev0107",
+            "html_url": "https://github.com/prosdev0107",
+            "followers_url": "https://api.github.com/users/prosdev0107/followers",
+            "following_url": "https://api.github.com/users/prosdev0107/following{/other_user}",
+            "gists_url": "https://api.github.com/users/prosdev0107/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/prosdev0107/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/prosdev0107/subscriptions",
+            "organizations_url": "https://api.github.com/users/prosdev0107/orgs",
+            "repos_url": "https://api.github.com/users/prosdev0107/repos",
+            "events_url": "https://api.github.com/users/prosdev0107/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/prosdev0107/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "604e30b3f089f9592bef03381b0dea5dd5b70f78",
+                "url": "https://api.github.com/repos/apache/superset/commits/604e30b3f089f9592bef03381b0dea5dd5b70f78",
+                "html_url": "https://github.com/apache/superset/commit/604e30b3f089f9592bef03381b0dea5dd5b70f78"
+            }
+        ]
+    },
+    {
+        "sha": "604e30b3f089f9592bef03381b0dea5dd5b70f78",
+        "node_id": "C_kwDOAlosUtoAKDYwNGUzMGIzZjA4OWY5NTkyYmVmMDMzODFiMGRlYTVkZDViNzBmNzg",
+        "commit": {
+            "author": {
+                "name": "Lily Kuang",
+                "email": "lily@preset.io",
+                "date": "2022-08-24T16:38:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-24T16:38:20Z"
+            },
+            "message": "fix: Filter throwing an error on Embedded Dashboard (#21157)\n\n* fix: Filter throwing an error on Embedded Dashboard\r\n\r\n* use short_id if storage not available\r\n\r\n* avoid infinite loop",
+            "tree": {
+                "sha": "f4527b5becdb351698e6476c1683ca44146efe7f",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/f4527b5becdb351698e6476c1683ca44146efe7f"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/604e30b3f089f9592bef03381b0dea5dd5b70f78",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBlP8CRBK7hj4Ov3rIwAAb2kIAH7QaqXMtHFMaAC5bgyj/KFD\n9uPjbZCdhdtA5LxUznP0LGuQ3FUF+oeWGmmqnBz4gWGfv2a7j8nAfqOuRTgQtCnz\nm9xyqEBwclj4s/zc5Cb4r3fzs4uMZ4nS8JrSSJQ4UgCaOCs/JGi+d2scWUmZ0Ta7\n4yKLt8fvxqMDMve6e+eLObnRKAf0Q5NAgkFwdVsC8cuAK2QGz8wqEdUGuko9yZvB\nI1lcqO4zcoRO6PkBxFvRzyog7BnhFZUi5RUy8Zi+0YVv1FnicIXfDUpvbi+YvfNe\nHUVUmfWtqM0R4HD0pHUKOh8W+35Cm7JyMoEldEcnlxJP3x2IIkbrzlzEDngPlIs=\n=ZLjf\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree f4527b5becdb351698e6476c1683ca44146efe7f\nparent 53de94c04757aa6fbaa32a92f0b826cdbeeec054\nauthor Lily Kuang <lily@preset.io> 1661359100 -0700\ncommitter GitHub <noreply@github.com> 1661359100 -0700\n\nfix: Filter throwing an error on Embedded Dashboard (#21157)\n\n* fix: Filter throwing an error on Embedded Dashboard\r\n\r\n* use short_id if storage not available\r\n\r\n* avoid infinite loop"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/604e30b3f089f9592bef03381b0dea5dd5b70f78",
+        "html_url": "https://github.com/apache/superset/commit/604e30b3f089f9592bef03381b0dea5dd5b70f78",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/604e30b3f089f9592bef03381b0dea5dd5b70f78/comments",
+        "author": {
+            "login": "lilykuang",
+            "id": 5705598,
+            "node_id": "MDQ6VXNlcjU3MDU1OTg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5705598?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lilykuang",
+            "html_url": "https://github.com/lilykuang",
+            "followers_url": "https://api.github.com/users/lilykuang/followers",
+            "following_url": "https://api.github.com/users/lilykuang/following{/other_user}",
+            "gists_url": "https://api.github.com/users/lilykuang/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/lilykuang/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/lilykuang/subscriptions",
+            "organizations_url": "https://api.github.com/users/lilykuang/orgs",
+            "repos_url": "https://api.github.com/users/lilykuang/repos",
+            "events_url": "https://api.github.com/users/lilykuang/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/lilykuang/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "53de94c04757aa6fbaa32a92f0b826cdbeeec054",
+                "url": "https://api.github.com/repos/apache/superset/commits/53de94c04757aa6fbaa32a92f0b826cdbeeec054",
+                "html_url": "https://github.com/apache/superset/commit/53de94c04757aa6fbaa32a92f0b826cdbeeec054"
+            }
+        ]
+    },
+    {
+        "sha": "53de94c04757aa6fbaa32a92f0b826cdbeeec054",
+        "node_id": "C_kwDOAlosUtoAKDUzZGU5NGMwNDc1N2FhNmZiYWEzMmE5MmYwYjgyNmNkYmVlZWMwNTQ",
+        "commit": {
+            "author": {
+                "name": "JUST.in DO IT",
+                "email": "justin.park@airbnb.com",
+                "date": "2022-08-24T05:26:05Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-24T05:26:05Z"
+            },
+            "message": "Revert \"fix(sqllab): avoid unexpected re-rendering on DatabaseSelector (#21141)\" (#21174)",
+            "tree": {
+                "sha": "17de3721f7464e8eb6a0f27a3c82e9f02499f37e",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/17de3721f7464e8eb6a0f27a3c82e9f02499f37e"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/53de94c04757aa6fbaa32a92f0b826cdbeeec054",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBbZtCRBK7hj4Ov3rIwAAYg0IAJV/0iav6hPteF8AxkXH4Lmh\nDJV+6pDFn2Dg6BJ4dAdBIoUQf0xeTCtNz4VW71c/Toc1kFG5RdlFLTL5lAAbz+UK\nM3ZeiGPYnyof3L9qUBCLv0lFwfVz+jIWE26xugy02WQP8/xZbu56N1+grWPSimVJ\nsPPqYRbfjhzopSxabimZIshisya0vxYGtS47ZnZX31AI1m3OeyB+8RD8k2F6gt5y\nCE8mLVdeB+moDmbh+Kqddok/OghxntRH5t/IimL2aGhOvQ2A4ntVWHxs6YmxZFC5\nXTRogsSbVHIvyT6VXEsq4IT/oCwED5x49kAHEwViZu8MSClMKs7eoRtWhFPGNW4=\n=iwWp\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 17de3721f7464e8eb6a0f27a3c82e9f02499f37e\nparent ed6212a1f9e4d0bdf2b256d83c797bda38784f8e\nauthor JUST.in DO IT <justin.park@airbnb.com> 1661318765 -0700\ncommitter GitHub <noreply@github.com> 1661318765 -0700\n\nRevert \"fix(sqllab): avoid unexpected re-rendering on DatabaseSelector (#21141)\" (#21174)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/53de94c04757aa6fbaa32a92f0b826cdbeeec054",
+        "html_url": "https://github.com/apache/superset/commit/53de94c04757aa6fbaa32a92f0b826cdbeeec054",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/53de94c04757aa6fbaa32a92f0b826cdbeeec054/comments",
+        "author": {
+            "login": "justinpark",
+            "id": 1392866,
+            "node_id": "MDQ6VXNlcjEzOTI4NjY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1392866?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/justinpark",
+            "html_url": "https://github.com/justinpark",
+            "followers_url": "https://api.github.com/users/justinpark/followers",
+            "following_url": "https://api.github.com/users/justinpark/following{/other_user}",
+            "gists_url": "https://api.github.com/users/justinpark/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/justinpark/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/justinpark/subscriptions",
+            "organizations_url": "https://api.github.com/users/justinpark/orgs",
+            "repos_url": "https://api.github.com/users/justinpark/repos",
+            "events_url": "https://api.github.com/users/justinpark/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/justinpark/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ed6212a1f9e4d0bdf2b256d83c797bda38784f8e",
+                "url": "https://api.github.com/repos/apache/superset/commits/ed6212a1f9e4d0bdf2b256d83c797bda38784f8e",
+                "html_url": "https://github.com/apache/superset/commit/ed6212a1f9e4d0bdf2b256d83c797bda38784f8e"
+            }
+        ]
+    },
+    {
+        "sha": "ed6212a1f9e4d0bdf2b256d83c797bda38784f8e",
+        "node_id": "C_kwDOAlosUtoAKGVkNjIxMmExZjllNGQwYmRmMmIyNTZkODNjNzk3YmRhMzg3ODRmOGU",
+        "commit": {
+            "author": {
+                "name": "Bogdan",
+                "email": "b.kyryliuk@gmail.com",
+                "date": "2022-08-24T01:45:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-24T01:45:39Z"
+            },
+            "message": "Reimplement permissions fetching to do it in a single transaction (#21156)\n\nCo-authored-by: Bogdan Kyryliuk <bogdankyryliuk@dropbox.com>",
+            "tree": {
+                "sha": "2f2baaf079842732a01b95016e7cbce30f951ba0",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/2f2baaf079842732a01b95016e7cbce30f951ba0"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/ed6212a1f9e4d0bdf2b256d83c797bda38784f8e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBYLDCRBK7hj4Ov3rIwAAzaAIAKB09HM9wayY5iQvHakDlsz9\nR6CRdomlFBDjut6K+Plips1PF4X9//5L6BJxv7qvoBR8qTJUgqbwxl2eOKCqSD+m\nqoaRVsOFsZ5wJ0HcUi8fNnm3Do+tX0TrlmielAstjOQ0Q01uXq1EH/td/u390DCH\nZfPOQz9IRWTO8MhWK6XdpGZa0LRqs/QTNNk8dVYrDg/nk1pB6pdx45QP0IrvDq/S\nYKzjL6NzmttkLDdOCrSCWSy6qqpq6NhQFvJoBSV9yxHPKNvEkAGKAv7myd0Tt68o\nzauw1fFwntt4rcRhikjVtDBBSwOD86FaqdQ2+rNZHz9dL+l5Vu05CQKIyMgpLLk=\n=hJAB\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2f2baaf079842732a01b95016e7cbce30f951ba0\nparent cda7d705650fd36b7051c1002ab8f152017c9a70\nauthor Bogdan <b.kyryliuk@gmail.com> 1661305539 -0700\ncommitter GitHub <noreply@github.com> 1661305539 -0700\n\nReimplement permissions fetching to do it in a single transaction (#21156)\n\nCo-authored-by: Bogdan Kyryliuk <bogdankyryliuk@dropbox.com>"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/ed6212a1f9e4d0bdf2b256d83c797bda38784f8e",
+        "html_url": "https://github.com/apache/superset/commit/ed6212a1f9e4d0bdf2b256d83c797bda38784f8e",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/ed6212a1f9e4d0bdf2b256d83c797bda38784f8e/comments",
+        "author": {
+            "login": "bkyryliuk",
+            "id": 5727938,
+            "node_id": "MDQ6VXNlcjU3Mjc5Mzg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5727938?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bkyryliuk",
+            "html_url": "https://github.com/bkyryliuk",
+            "followers_url": "https://api.github.com/users/bkyryliuk/followers",
+            "following_url": "https://api.github.com/users/bkyryliuk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bkyryliuk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bkyryliuk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bkyryliuk/subscriptions",
+            "organizations_url": "https://api.github.com/users/bkyryliuk/orgs",
+            "repos_url": "https://api.github.com/users/bkyryliuk/repos",
+            "events_url": "https://api.github.com/users/bkyryliuk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bkyryliuk/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cda7d705650fd36b7051c1002ab8f152017c9a70",
+                "url": "https://api.github.com/repos/apache/superset/commits/cda7d705650fd36b7051c1002ab8f152017c9a70",
+                "html_url": "https://github.com/apache/superset/commit/cda7d705650fd36b7051c1002ab8f152017c9a70"
+            }
+        ]
+    },
+    {
+        "sha": "cda7d705650fd36b7051c1002ab8f152017c9a70",
+        "node_id": "C_kwDOAlosUtoAKGNkYTdkNzA1NjUwZmQzNmI3MDUxYzEwMDJhYjhmMTUyMDE3YzlhNzA",
+        "commit": {
+            "author": {
+                "name": "Hugh A. Miles II",
+                "email": "hughmil3s@gmail.com",
+                "date": "2022-08-23T23:31:05Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-23T23:31:05Z"
+            },
+            "message": "feat: print comment for chromatic storybook link (#21170)\n\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* working\r\n\r\n* plz work\r\n\r\n* plzzzzz\r\n\r\n* one more time\r\n\r\n* one one more time\r\n\r\n* this works\r\n\r\n* lit\r\n\r\n* last one",
+            "tree": {
+                "sha": "e4c54223bf74a82c7f4d53a61864a23b5814018a",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/e4c54223bf74a82c7f4d53a61864a23b5814018a"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/cda7d705650fd36b7051c1002ab8f152017c9a70",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBWM5CRBK7hj4Ov3rIwAAVy4IAGCFAJwmRvNnw6Cg8nkdNNHJ\nJnG//mHp9tv+knIYH67HYNL3kx3eIiuNysZ4LA010MTppktb7O86gpTL0WRBymIZ\n7Uz5MJnEySgZYbWNFvGgjj5Ixq3poIVIyyRIsZ/O3ofhQbdPw+UhW0JZ6rzoEwYi\nchrlrAria/uqdrgaOBcDliCktochKJ4MQ3IPX6g/LcSqvkJB68lv1JGofw69/Syt\nTrPURKhdBHjOfi0YHQ6oNYpwUO3DcAizH2CKlwdOcZ3rRMZZsACUWN4P4db8elDH\nthbFJPylRUTiqEdktda4BQPJFJJnCrGssD+WoddXcbLAow94k1EEOLJvwsyO0oU=\n=rkM6\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree e4c54223bf74a82c7f4d53a61864a23b5814018a\nparent 6a0b7e5598f18262cb83579bacd2440faaf5717b\nauthor Hugh A. Miles II <hughmil3s@gmail.com> 1661297465 -0400\ncommitter GitHub <noreply@github.com> 1661297465 -0400\n\nfeat: print comment for chromatic storybook link (#21170)\n\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* Update chromatic.yml\r\n\r\n* working\r\n\r\n* plz work\r\n\r\n* plzzzzz\r\n\r\n* one more time\r\n\r\n* one one more time\r\n\r\n* this works\r\n\r\n* lit\r\n\r\n* last one"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/cda7d705650fd36b7051c1002ab8f152017c9a70",
+        "html_url": "https://github.com/apache/superset/commit/cda7d705650fd36b7051c1002ab8f152017c9a70",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/cda7d705650fd36b7051c1002ab8f152017c9a70/comments",
+        "author": {
+            "login": "hughhhh",
+            "id": 27827808,
+            "node_id": "MDQ6VXNlcjI3ODI3ODA4",
+            "avatar_url": "https://avatars.githubusercontent.com/u/27827808?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hughhhh",
+            "html_url": "https://github.com/hughhhh",
+            "followers_url": "https://api.github.com/users/hughhhh/followers",
+            "following_url": "https://api.github.com/users/hughhhh/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hughhhh/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hughhhh/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hughhhh/subscriptions",
+            "organizations_url": "https://api.github.com/users/hughhhh/orgs",
+            "repos_url": "https://api.github.com/users/hughhhh/repos",
+            "events_url": "https://api.github.com/users/hughhhh/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hughhhh/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6a0b7e5598f18262cb83579bacd2440faaf5717b",
+                "url": "https://api.github.com/repos/apache/superset/commits/6a0b7e5598f18262cb83579bacd2440faaf5717b",
+                "html_url": "https://github.com/apache/superset/commit/6a0b7e5598f18262cb83579bacd2440faaf5717b"
+            }
+        ]
+    },
+    {
+        "sha": "6a0b7e5598f18262cb83579bacd2440faaf5717b",
+        "node_id": "C_kwDOAlosUtoAKDZhMGI3ZTU1OThmMTgyNjJjYjgzNTc5YmFjZDI0NDBmYWFmNTcxN2I",
+        "commit": {
+            "author": {
+                "name": "Eric Briscoe",
+                "email": "eric.j.briscoe@gmail.com",
+                "date": "2022-08-23T20:16:28Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-23T20:16:28Z"
+            },
+            "message": "feat: Add Chromatic publishing to superset-frontend storybook (#21095)\n\n* Work in progress to add Chromatic publishing to superset-fronted storybook\r\n\r\nAdds new Github action to publish storybook builds to chromatic\r\nAdjusts configuration to support MDX story format\r\nUpdates Alert stories to take advantage of MDX format for example in storybook that will publish to Chromatic\r\nFixes issue in ListViewCard stories that make the story build fail\r\n\r\n* Adjust Chromatic Github action\r\n\r\n* Adjust action so Gtihub Secret is read into env\r\n\r\nGithub secrets are not accessible in conditional blocks so this change moves the access of the github secret into an env variable which is accessible in conditional logic\r\n\r\n* Removes unneccesary projectToken from package json\r\n\r\n* Using a temp key to debug no access to value from github secret\r\n\r\n* Refining skipping if no changes to superset-frontend\r\n\r\n* Remove typos from Action component story, consolidate on folder check in Chromatic action\r\n\r\n* Fix error in Chromatic action event\r\n\r\n* Testing action with pul_request_target\r\n\r\n* adjustments to Chromatic action triggers\r\n\r\n* lint fix\r\n\r\n* Testing if pull_request_target is disabled\r\n\r\n* More adjustments to Chromatic action\r\n\r\n* UI Change to trigger action\r\n\r\n* Change to story text to test action\r\n\r\n* update package-lock after merge conflicts from master\r\n\r\n* Changes to test chromatic action\r\n\r\n* Finalize Chromatic actions, fix lint errors\r\n\r\n* Backs out addition of @storybook/addon-docs which is included in addon-essentials\r\n\r\n* Lint error in package.json",
+            "tree": {
+                "sha": "db76446d3bac49e6a63e11d4a70b824d586946b9",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/db76446d3bac49e6a63e11d4a70b824d586946b9"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/6a0b7e5598f18262cb83579bacd2440faaf5717b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBTWcCRBK7hj4Ov3rIwAA1QsIAKdSsl9Ct7No/h9oT8pF+ivq\nwnL0d0Mnfe3NRtlX8NYnxOwkmXaK3HnnXHBzcE0outMhn+W6qRa4OBkeVs2s36gK\n2U2cbORbUgt9GbpYu/BvIN2pYJaYrICpmt5r+MAPWKGpyK4Bv3GLP49tq6WpqUzw\nEbwM//s1Ry2wsS3cwXcFhaAa1ui8bg1FcEwY6JeoG95M6NUIq2Q0Y0eTt6PpjVaa\nbldzC0VscPajEYPWXCwjEasIEq2C7RAbR8StTv2bGW5Rm2ACvixkmYtj+kQrAfYS\n/7cMX7/nOSsrghhPLIpWUu+ueN5kgX4XfUjw68wUpPuTcfn6U/hLoiGm+FNbnlo=\n=ipHT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree db76446d3bac49e6a63e11d4a70b824d586946b9\nparent f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d\nauthor Eric Briscoe <eric.j.briscoe@gmail.com> 1661285788 -0700\ncommitter GitHub <noreply@github.com> 1661285788 -0400\n\nfeat: Add Chromatic publishing to superset-frontend storybook (#21095)\n\n* Work in progress to add Chromatic publishing to superset-fronted storybook\r\n\r\nAdds new Github action to publish storybook builds to chromatic\r\nAdjusts configuration to support MDX story format\r\nUpdates Alert stories to take advantage of MDX format for example in storybook that will publish to Chromatic\r\nFixes issue in ListViewCard stories that make the story build fail\r\n\r\n* Adjust Chromatic Github action\r\n\r\n* Adjust action so Gtihub Secret is read into env\r\n\r\nGithub secrets are not accessible in conditional blocks so this change moves the access of the github secret into an env variable which is accessible in conditional logic\r\n\r\n* Removes unneccesary projectToken from package json\r\n\r\n* Using a temp key to debug no access to value from github secret\r\n\r\n* Refining skipping if no changes to superset-frontend\r\n\r\n* Remove typos from Action component story, consolidate on folder check in Chromatic action\r\n\r\n* Fix error in Chromatic action event\r\n\r\n* Testing action with pul_request_target\r\n\r\n* adjustments to Chromatic action triggers\r\n\r\n* lint fix\r\n\r\n* Testing if pull_request_target is disabled\r\n\r\n* More adjustments to Chromatic action\r\n\r\n* UI Change to trigger action\r\n\r\n* Change to story text to test action\r\n\r\n* update package-lock after merge conflicts from master\r\n\r\n* Changes to test chromatic action\r\n\r\n* Finalize Chromatic actions, fix lint errors\r\n\r\n* Backs out addition of @storybook/addon-docs which is included in addon-essentials\r\n\r\n* Lint error in package.json"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/6a0b7e5598f18262cb83579bacd2440faaf5717b",
+        "html_url": "https://github.com/apache/superset/commit/6a0b7e5598f18262cb83579bacd2440faaf5717b",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/6a0b7e5598f18262cb83579bacd2440faaf5717b/comments",
+        "author": {
+            "login": "eric-briscoe",
+            "id": 5614266,
+            "node_id": "MDQ6VXNlcjU2MTQyNjY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5614266?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eric-briscoe",
+            "html_url": "https://github.com/eric-briscoe",
+            "followers_url": "https://api.github.com/users/eric-briscoe/followers",
+            "following_url": "https://api.github.com/users/eric-briscoe/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eric-briscoe/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eric-briscoe/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eric-briscoe/subscriptions",
+            "organizations_url": "https://api.github.com/users/eric-briscoe/orgs",
+            "repos_url": "https://api.github.com/users/eric-briscoe/repos",
+            "events_url": "https://api.github.com/users/eric-briscoe/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eric-briscoe/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d",
+                "url": "https://api.github.com/repos/apache/superset/commits/f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d",
+                "html_url": "https://github.com/apache/superset/commit/f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d"
+            }
+        ]
+    },
+    {
+        "sha": "f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d",
+        "node_id": "C_kwDOAlosUtoAKGY3N2I5MTBlMmNjOWYxYmQ5MGFjMGYzYTkwOTdlYzVkMzk0YjU4MmQ",
+        "commit": {
+            "author": {
+                "name": "JUST.in DO IT",
+                "email": "justin.park@airbnb.com",
+                "date": "2022-08-23T15:17:19Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-23T15:17:19Z"
+            },
+            "message": "perf(sqllab): Rendering perf improvement using immutable state (#20877)\n\n* perf(sqllab): Rendering perf improvement using immutable state\r\n\r\n- keep queryEditors immutable during active state\r\n- add unsavedQueryEditor to store all active changes\r\n- refactor each component to subscribe the related unsaved editor state only\r\n\r\n* revert ISaveableDatasource type cast\r\n\r\n* missing trigger prop\r\n\r\n* a default of an empty object and optional operator",
+            "tree": {
+                "sha": "7c14ecbad97cf8a1e84d514d65cdff6d92e22f14",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/7c14ecbad97cf8a1e84d514d65cdff6d92e22f14"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBO9/CRBK7hj4Ov3rIwAA5rwIAH+PWf2+NOOqG5j/qif/npUm\nKaaOezOVfaucROMsSHUXohKOkYUkDN4J5MJ0ZRrQPuXgEiRVzWBG07brtDAyTpDb\nnY2y03ebajqpTv4HzaO2Vbmav44pZr57oMSPIC5XwonAQCAGZbc+FDac6Uc3CRGm\naXtTbukZ/4qlApOVPCLGgrVsUDbPMwp8Bfms8iT7KAVCyWeB3EOTl6N9shk8DiHJ\nmYGYIjLSzgTBZYjEiAEGy06LqOGiO2QpqkW7Ndp9eSEbMzeIXP8T4KMFvyoZoqrj\nc7ppcZ+4YIUlaU2RQdvI8y4pB8lvMncOA+THdaAnjwDkhSf8d2STkLMA2q7CSZU=\n=bmmM\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7c14ecbad97cf8a1e84d514d65cdff6d92e22f14\nparent 4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1\nauthor JUST.in DO IT <justin.park@airbnb.com> 1661267839 -0700\ncommitter GitHub <noreply@github.com> 1661267839 -0300\n\nperf(sqllab): Rendering perf improvement using immutable state (#20877)\n\n* perf(sqllab): Rendering perf improvement using immutable state\r\n\r\n- keep queryEditors immutable during active state\r\n- add unsavedQueryEditor to store all active changes\r\n- refactor each component to subscribe the related unsaved editor state only\r\n\r\n* revert ISaveableDatasource type cast\r\n\r\n* missing trigger prop\r\n\r\n* a default of an empty object and optional operator"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d",
+        "html_url": "https://github.com/apache/superset/commit/f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/f77b910e2cc9f1bd90ac0f3a9097ec5d394b582d/comments",
+        "author": {
+            "login": "justinpark",
+            "id": 1392866,
+            "node_id": "MDQ6VXNlcjEzOTI4NjY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1392866?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/justinpark",
+            "html_url": "https://github.com/justinpark",
+            "followers_url": "https://api.github.com/users/justinpark/followers",
+            "following_url": "https://api.github.com/users/justinpark/following{/other_user}",
+            "gists_url": "https://api.github.com/users/justinpark/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/justinpark/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/justinpark/subscriptions",
+            "organizations_url": "https://api.github.com/users/justinpark/orgs",
+            "repos_url": "https://api.github.com/users/justinpark/repos",
+            "events_url": "https://api.github.com/users/justinpark/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/justinpark/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1",
+                "url": "https://api.github.com/repos/apache/superset/commits/4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1",
+                "html_url": "https://github.com/apache/superset/commit/4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1"
+            }
+        ]
+    },
+    {
+        "sha": "4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1",
+        "node_id": "C_kwDOAlosUtoAKDRjYTRhNWM3Y2IxODVhYzdkMzE4ZWY1MzQ5ZmJiMjNjZDdjZTFmZDE",
+        "commit": {
+            "author": {
+                "name": "Michael S. Molina",
+                "email": "70410625+michael-s-molina@users.noreply.github.com",
+                "date": "2022-08-23T13:24:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-23T13:24:55Z"
+            },
+            "message": "feat: Adds drill to detail context menu to World Map (#21150)",
+            "tree": {
+                "sha": "c540fdc0e58b5bd22615a7cf435565f20fb1cc4a",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/c540fdc0e58b5bd22615a7cf435565f20fb1cc4a"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBNUnCRBK7hj4Ov3rIwAA3WUIAIf9aV2uTYgBQVzR2iTySoQh\nUwEDiZNjf3w5hQaFJq+gdbUDcSM1eSysCNWzcEZdB65jeF6tMxp3YFqIKS4aZR08\nmc0AgN2HJt7pnkfxz9RYEqAqPi36cR0RWvjM9lXvlC42sgQQe96ymxREEajsvi2G\nzYxM+GLvqqXYl8y/I/I4saPKpvbEUZ1exoXhHTjHvTYzE+1hkAPqu+PFc3GrPYUd\npetjhpA4dA/Zh7DLayc9zc/NZY3gsIsnwNDKIynbyn9iQFHCQRjlZnRI05dsb5rm\nMi02FWEG6tlOwuJlrSP2UVctTursZoM52m+HnX62cmtUQfYtFNh/VRWmN+49PoY=\n=RDt0\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree c540fdc0e58b5bd22615a7cf435565f20fb1cc4a\nparent 51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8\nauthor Michael S. Molina <70410625+michael-s-molina@users.noreply.github.com> 1661261095 -0300\ncommitter GitHub <noreply@github.com> 1661261095 -0300\n\nfeat: Adds drill to detail context menu to World Map (#21150)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1",
+        "html_url": "https://github.com/apache/superset/commit/4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/4ca4a5c7cb185ac7d318ef5349fbb23cd7ce1fd1/comments",
+        "author": {
+            "login": "michael-s-molina",
+            "id": 70410625,
+            "node_id": "MDQ6VXNlcjcwNDEwNjI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70410625?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/michael-s-molina",
+            "html_url": "https://github.com/michael-s-molina",
+            "followers_url": "https://api.github.com/users/michael-s-molina/followers",
+            "following_url": "https://api.github.com/users/michael-s-molina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/michael-s-molina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/michael-s-molina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/michael-s-molina/subscriptions",
+            "organizations_url": "https://api.github.com/users/michael-s-molina/orgs",
+            "repos_url": "https://api.github.com/users/michael-s-molina/repos",
+            "events_url": "https://api.github.com/users/michael-s-molina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/michael-s-molina/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8",
+                "url": "https://api.github.com/repos/apache/superset/commits/51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8",
+                "html_url": "https://github.com/apache/superset/commit/51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8"
+            }
+        ]
+    },
+    {
+        "sha": "51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8",
+        "node_id": "C_kwDOAlosUtoAKDUxZTU2N2ZmZWY2ODRiNWUzZmI5ZTViZGZhY2NkOWFkMjc3N2Y0Yzg",
+        "commit": {
+            "author": {
+                "name": "dependabot[bot]",
+                "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                "date": "2022-08-23T03:02:51Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-23T03:02:51Z"
+            },
+            "message": "chore(deps): bump async from 2.6.3 to 2.6.4 in /superset-frontend (#21062)\n\nBumps [async](https://github.com/caolan/async) from 2.6.3 to 2.6.4.\r\n- [Release notes](https://github.com/caolan/async/releases)\r\n- [Changelog](https://github.com/caolan/async/blob/v2.6.4/CHANGELOG.md)\r\n- [Commits](https://github.com/caolan/async/compare/v2.6.3...v2.6.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: async\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "tree": {
+                "sha": "6fab3964692b29d82cab175c576c910a4d3fadf7",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/6fab3964692b29d82cab175c576c910a4d3fadf7"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBENbCRBK7hj4Ov3rIwAAAUsIAC9bwf0bCtkm9Ktuuf+qnvI7\n/9Qti248SPPJp9z0ckwtDG6ZMemoM4y7yZz/WcxPZwyxl02SMT6H0kYHWtTuIk0D\nA+1OewNKAOfTJBY7kqCAr79EZkECgbJAtIUc2XeFkoMeooBYbdFPGxS1RPlXZb6r\no3mj/aTgmQKhU+7h8F2xRSsUL7rNOkIY4OPKZOZfXWusrIyJtFKN7yFKHPrHmHdQ\nSrfrBkG5s+QhP3eRF9CEKqMsrANMQEDU8UT1biUJt80XffqVWt4z1TBPIijSWWVl\nY2ZX9N1qLGPlKzOG3Y4E3EMFODv3ksYbCtzrJj+XMGVBbBBv11loX+Uu9ucFouw=\n=KFPN\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6fab3964692b29d82cab175c576c910a4d3fadf7\nparent 6094274f0b017b4a456cd78c3039a57be2d63fc5\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1661223771 -0600\ncommitter GitHub <noreply@github.com> 1661223771 -0600\n\nchore(deps): bump async from 2.6.3 to 2.6.4 in /superset-frontend (#21062)\n\nBumps [async](https://github.com/caolan/async) from 2.6.3 to 2.6.4.\r\n- [Release notes](https://github.com/caolan/async/releases)\r\n- [Changelog](https://github.com/caolan/async/blob/v2.6.4/CHANGELOG.md)\r\n- [Commits](https://github.com/caolan/async/compare/v2.6.3...v2.6.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: async\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8",
+        "html_url": "https://github.com/apache/superset/commit/51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/51e567ffef684b5e3fb9e5bdfaccd9ad2777f4c8/comments",
+        "author": {
+            "login": "dependabot[bot]",
+            "id": 49699333,
+            "node_id": "MDM6Qm90NDk2OTkzMzM=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+            "html_url": "https://github.com/apps/dependabot",
+            "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+            "type": "Bot",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6094274f0b017b4a456cd78c3039a57be2d63fc5",
+                "url": "https://api.github.com/repos/apache/superset/commits/6094274f0b017b4a456cd78c3039a57be2d63fc5",
+                "html_url": "https://github.com/apache/superset/commit/6094274f0b017b4a456cd78c3039a57be2d63fc5"
+            }
+        ]
+    },
+    {
+        "sha": "6094274f0b017b4a456cd78c3039a57be2d63fc5",
+        "node_id": "C_kwDOAlosUtoAKDYwOTQyNzRmMGIwMTdiNGE0NTZjZDc4YzMwMzlhNTdiZTJkNjNmYzU",
+        "commit": {
+            "author": {
+                "name": "Lyndsi Kay Williams",
+                "email": "55605634+lyndsiWilliams@users.noreply.github.com",
+                "date": "2022-08-22T23:45:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T23:45:03Z"
+            },
+            "message": "feat: Create dataset blank state (#21058)\n\n* beginning of routing\n\n* elizabeth review\n\n* changed folder layout\n\n* Dataset layout setup\n\n* Fix DatasetLayout test\n\n* Fixed height issue\n\n* Fix link to sqllab\n\n* Fix DatasetPanel test\n\n* Remove arbitrary right panel\n\n* Add empty state SVGs\n\n* Restructure/rename some Dataset files\n\n* Fixed styling issue\n\n* Fix background color\n\n* Fix header border\n\n* Fix empty DatasetPanel styles\n\n* Adjust description rendering in DatasetPanel to fix tests\n\n* Add spaces back to blank dataset description to fix tests\n\n* Fix blank dataset description styles\n\nCo-authored-by: AAfghahi <arash.afghahi@gmail.com>",
+            "tree": {
+                "sha": "dae1dd068ee006df9c2a7fb0c1de7806b41fa7df",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/dae1dd068ee006df9c2a7fb0c1de7806b41fa7df"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/6094274f0b017b4a456cd78c3039a57be2d63fc5",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBBT/CRBK7hj4Ov3rIwAA4zIIAFEQrGjB4pn/uMAgV7vwqK2w\nHpNvmq9e+DTRrMqzT+vGmLZfdsSdHOUvvkkYG3L6H0Sqcr1hmA73X2Aca4IQkBHM\nrFrQ1zI4zgWtpTqSl0Y3toNkFiW/nAzS5kwxM1YMY36OK3JJ/EEoJaCksKI4GE6t\nltjAAWpNcQub5J3mQEXB45p8pDzspJzPUIJ9kit/OYhNP48zFS1BVbMqVTyOJE1g\nXB17JVY14kCA4UmhmTQiF8KlzMGr6s6wZ2ne3QoNbge4ibQpPmFS4k81wCKKGx8E\n6nPs39Fqut2JV6JKNs0fmEYF/h42vEa+B6BGZvXBz1EVhlWSQMj6axT/vQ8zaBo=\n=w2Hh\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree dae1dd068ee006df9c2a7fb0c1de7806b41fa7df\nparent 52648ecd7f6158473ec198e1ade9a5a69008b752\nauthor Lyndsi Kay Williams <55605634+lyndsiWilliams@users.noreply.github.com> 1661211903 -0500\ncommitter GitHub <noreply@github.com> 1661211903 -0500\n\nfeat: Create dataset blank state (#21058)\n\n* beginning of routing\n\n* elizabeth review\n\n* changed folder layout\n\n* Dataset layout setup\n\n* Fix DatasetLayout test\n\n* Fixed height issue\n\n* Fix link to sqllab\n\n* Fix DatasetPanel test\n\n* Remove arbitrary right panel\n\n* Add empty state SVGs\n\n* Restructure/rename some Dataset files\n\n* Fixed styling issue\n\n* Fix background color\n\n* Fix header border\n\n* Fix empty DatasetPanel styles\n\n* Adjust description rendering in DatasetPanel to fix tests\n\n* Add spaces back to blank dataset description to fix tests\n\n* Fix blank dataset description styles\n\nCo-authored-by: AAfghahi <arash.afghahi@gmail.com>"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/6094274f0b017b4a456cd78c3039a57be2d63fc5",
+        "html_url": "https://github.com/apache/superset/commit/6094274f0b017b4a456cd78c3039a57be2d63fc5",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/6094274f0b017b4a456cd78c3039a57be2d63fc5/comments",
+        "author": {
+            "login": "lyndsiWilliams",
+            "id": 55605634,
+            "node_id": "MDQ6VXNlcjU1NjA1NjM0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/55605634?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lyndsiWilliams",
+            "html_url": "https://github.com/lyndsiWilliams",
+            "followers_url": "https://api.github.com/users/lyndsiWilliams/followers",
+            "following_url": "https://api.github.com/users/lyndsiWilliams/following{/other_user}",
+            "gists_url": "https://api.github.com/users/lyndsiWilliams/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/lyndsiWilliams/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/lyndsiWilliams/subscriptions",
+            "organizations_url": "https://api.github.com/users/lyndsiWilliams/orgs",
+            "repos_url": "https://api.github.com/users/lyndsiWilliams/repos",
+            "events_url": "https://api.github.com/users/lyndsiWilliams/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/lyndsiWilliams/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "52648ecd7f6158473ec198e1ade9a5a69008b752",
+                "url": "https://api.github.com/repos/apache/superset/commits/52648ecd7f6158473ec198e1ade9a5a69008b752",
+                "html_url": "https://github.com/apache/superset/commit/52648ecd7f6158473ec198e1ade9a5a69008b752"
+            }
+        ]
+    },
+    {
+        "sha": "52648ecd7f6158473ec198e1ade9a5a69008b752",
+        "node_id": "C_kwDOAlosUtoAKDUyNjQ4ZWNkN2Y2MTU4NDczZWMxOThlMWFkZTlhNWE2OTAwOGI3NTI",
+        "commit": {
+            "author": {
+                "name": "Cody Leff",
+                "email": "cody@preset.io",
+                "date": "2022-08-22T22:57:18Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T22:57:18Z"
+            },
+            "message": "feat(dashboard): Add Drill to Detail modal w/ chart menu + right-click support (#20728)\n\n* Add drill-to-detail modal.\r\n\r\n* Include additional filters from dashboard context in request.\r\n\r\n* Set page cache size to be approximately equal to memory usage of Samples pane.\r\n\r\n* Update getDatasourceSamples signature.\r\n\r\n* One-line import/export.\r\n\r\n* Fix incorrect argument order in getDatasourceSamples invocation.\r\n\r\n* Fix height of modal.\r\n\r\n* Disable option in chart menu unless feature flag is set.\r\n\r\n* Open modal on right-click.\r\n\r\n* Fix double requests on modal open, controls disappearing on filter update.\r\n\r\n* Show formattedVal in clearable filter tag.\r\n\r\n* Set force=false for all requests.\r\n\r\n* Rearrange/refactor DrillDetailPane.\r\n\r\n* Reset page index on reload.\r\n\r\n* Fix endless re-requests on request failure.\r\n\r\n* Fix modal layout issues.",
+            "tree": {
+                "sha": "4f2fa2e8c858ab5c6d1ae9c7b8ae262dcbeb411e",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/4f2fa2e8c858ab5c6d1ae9c7b8ae262dcbeb411e"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/52648ecd7f6158473ec198e1ade9a5a69008b752",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBAnOCRBK7hj4Ov3rIwAANBcIAGS5Ua+bPBQ4rL3RLm568gdp\n+ODCwFMH7RPuf/4OKUg/r2l58+fDeDq4yajKzUcQsEoXn0gqZrGOC3vmWZI0sqny\nLVVf1IfFJDpK1aJXRHDpHK+pp1r6zo4WwCLw6rhlcl7Xzg0e4UT97VQC7ZifCPVq\nj76jGC6/H2jsccWJfO5gswTAgBKrkzrywQ1Y/B+nDO/n+i2PbFlmvR6UBFfwC62F\nAuKw4tk/mfxpz3ZGzJ0P0nZuzRFIaMYmyEeHaMFMUuWJLVVYXOJ2ReAq73+ZgY4+\n0j62alTuLu87kqyp0agIw6iRA9PlJeOAG0GNH7TZv5BgDJGfAtsQI7nFSsZNYQM=\n=M0s5\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4f2fa2e8c858ab5c6d1ae9c7b8ae262dcbeb411e\nparent ca98fd84684c30913d30240309aaa52f8a3c3cc0\nauthor Cody Leff <cody@preset.io> 1661209038 -0700\ncommitter GitHub <noreply@github.com> 1661209038 -0700\n\nfeat(dashboard): Add Drill to Detail modal w/ chart menu + right-click support (#20728)\n\n* Add drill-to-detail modal.\r\n\r\n* Include additional filters from dashboard context in request.\r\n\r\n* Set page cache size to be approximately equal to memory usage of Samples pane.\r\n\r\n* Update getDatasourceSamples signature.\r\n\r\n* One-line import/export.\r\n\r\n* Fix incorrect argument order in getDatasourceSamples invocation.\r\n\r\n* Fix height of modal.\r\n\r\n* Disable option in chart menu unless feature flag is set.\r\n\r\n* Open modal on right-click.\r\n\r\n* Fix double requests on modal open, controls disappearing on filter update.\r\n\r\n* Show formattedVal in clearable filter tag.\r\n\r\n* Set force=false for all requests.\r\n\r\n* Rearrange/refactor DrillDetailPane.\r\n\r\n* Reset page index on reload.\r\n\r\n* Fix endless re-requests on request failure.\r\n\r\n* Fix modal layout issues."
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/52648ecd7f6158473ec198e1ade9a5a69008b752",
+        "html_url": "https://github.com/apache/superset/commit/52648ecd7f6158473ec198e1ade9a5a69008b752",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/52648ecd7f6158473ec198e1ade9a5a69008b752/comments",
+        "author": {
+            "login": "codyml",
+            "id": 13007381,
+            "node_id": "MDQ6VXNlcjEzMDA3Mzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13007381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codyml",
+            "html_url": "https://github.com/codyml",
+            "followers_url": "https://api.github.com/users/codyml/followers",
+            "following_url": "https://api.github.com/users/codyml/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codyml/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codyml/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codyml/subscriptions",
+            "organizations_url": "https://api.github.com/users/codyml/orgs",
+            "repos_url": "https://api.github.com/users/codyml/repos",
+            "events_url": "https://api.github.com/users/codyml/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codyml/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ca98fd84684c30913d30240309aaa52f8a3c3cc0",
+                "url": "https://api.github.com/repos/apache/superset/commits/ca98fd84684c30913d30240309aaa52f8a3c3cc0",
+                "html_url": "https://github.com/apache/superset/commit/ca98fd84684c30913d30240309aaa52f8a3c3cc0"
+            }
+        ]
+    },
+    {
+        "sha": "ca98fd84684c30913d30240309aaa52f8a3c3cc0",
+        "node_id": "C_kwDOAlosUtoAKGNhOThmZDg0Njg0YzMwOTEzZDMwMjQwMzA5YWFhNTJmOGEzYzNjYzA",
+        "commit": {
+            "author": {
+                "name": "Yao Zhou",
+                "email": "zhouyao1994@users.noreply.github.com",
+                "date": "2022-08-22T19:29:53Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T19:29:53Z"
+            },
+            "message": "docs: Format the same size of picture for better part of \"Supported Databases\" document (#21037)\n\n* Fix bug: some word not translate in js.\r\ndelete the 'null,' in messages.json,\r\nso that word can be translate in js.\r\n\r\n* docs:No code change. Reformat the database logs with size 400*160,modify the aprt of \"Supported dabase\" in README",
+            "tree": {
+                "sha": "a252c2ffee79d89e350543954f517e13c783e55c",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/a252c2ffee79d89e350543954f517e13c783e55c"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/ca98fd84684c30913d30240309aaa52f8a3c3cc0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjA9kxCRBK7hj4Ov3rIwAAacQIALKHEUlZCWih5ZTwH+8rR3RA\nqjgTJJbXRyyOX1QalwyTVoy58O1meZV35d7DLVnyG+vQ5pGxen9iHKHGnfU0Gu5A\nxTCtX309/d2BE9BEzloJgnniQbwcMNtmwMkNs5pjSDuvhwHRQetDEgGrwFtFGQCc\nJQSmc4uHPnOOK27HaBZNFNL1j0hNF9sQuKMtG3WaV4ds27iMbs2Me+S2wutmyQqs\ncGyBOM8rMniOKJyJEuqsBF7r0DooKFQBJEMXpc1Hlk8fbq1HxtdUQm1RhA06/ezV\neEm07vMyxeJiwTRG22eBoy1OTOtLh6NbY+OSoX6EpAxbjJ8diEFJNdvBVNhNPUc=\n=0H0c\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a252c2ffee79d89e350543954f517e13c783e55c\nparent 0bf4e56dc3e129d2b9239f055212249ba95521e4\nauthor Yao Zhou <zhouyao1994@users.noreply.github.com> 1661196593 +0800\ncommitter GitHub <noreply@github.com> 1661196593 -0400\n\ndocs: Format the same size of picture for better part of \"Supported Databases\" document (#21037)\n\n* Fix bug: some word not translate in js.\r\ndelete the 'null,' in messages.json,\r\nso that word can be translate in js.\r\n\r\n* docs:No code change. Reformat the database logs with size 400*160,modify the aprt of \"Supported dabase\" in README"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/ca98fd84684c30913d30240309aaa52f8a3c3cc0",
+        "html_url": "https://github.com/apache/superset/commit/ca98fd84684c30913d30240309aaa52f8a3c3cc0",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/ca98fd84684c30913d30240309aaa52f8a3c3cc0/comments",
+        "author": {
+            "login": "zhouyao1994",
+            "id": 5468589,
+            "node_id": "MDQ6VXNlcjU0Njg1ODk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5468589?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zhouyao1994",
+            "html_url": "https://github.com/zhouyao1994",
+            "followers_url": "https://api.github.com/users/zhouyao1994/followers",
+            "following_url": "https://api.github.com/users/zhouyao1994/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zhouyao1994/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zhouyao1994/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zhouyao1994/subscriptions",
+            "organizations_url": "https://api.github.com/users/zhouyao1994/orgs",
+            "repos_url": "https://api.github.com/users/zhouyao1994/repos",
+            "events_url": "https://api.github.com/users/zhouyao1994/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zhouyao1994/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0bf4e56dc3e129d2b9239f055212249ba95521e4",
+                "url": "https://api.github.com/repos/apache/superset/commits/0bf4e56dc3e129d2b9239f055212249ba95521e4",
+                "html_url": "https://github.com/apache/superset/commit/0bf4e56dc3e129d2b9239f055212249ba95521e4"
+            }
+        ]
+    },
+    {
+        "sha": "0bf4e56dc3e129d2b9239f055212249ba95521e4",
+        "node_id": "C_kwDOAlosUtoAKDBiZjRlNTZkYzNlMTI5ZDJiOTIzOWYwNTUyMTIyNDliYTk1NTIxZTQ",
+        "commit": {
+            "author": {
+                "name": "Michael S. Molina",
+                "email": "70410625+michael-s-molina@users.noreply.github.com",
+                "date": "2022-08-22T16:52:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T16:52:39Z"
+            },
+            "message": "fix: Drill to detail on values with comma (#21151)",
+            "tree": {
+                "sha": "ca91b8a41bbaee110cd0ca6275f76906e8a7a9dd",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/ca91b8a41bbaee110cd0ca6275f76906e8a7a9dd"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/0bf4e56dc3e129d2b9239f055212249ba95521e4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjA7RXCRBK7hj4Ov3rIwAA9QsIAGyOtI82qmI5kuYjjdnUalvY\nxtHU+QtMvbz9DeXgc0mI1KBSowWGgdEv/jQ+vxl4MjS7hRSRicmy4R7KzD+KwjvG\n8rwNQMfrLvxBUkAf5N7KJblQEQHTpUleEsOlRAdG+8vggIUNKeTNlRrnGUtC6eAU\nI7EUeA5SLyWX3e/MyHZHfByaremp9H/UXdUCbzkkNXAtOjBKqJSIMGzOnz/n1d2Q\nBEMeQThHEndqRmX7nVueob8MhgvGH8NYrP2BI9XEWHHmpJYer3Ic7Jgoiasq7rss\njG7/VpAmUNZ/sHi0GtOnb8Y+k0Z9hsvYBkfjJUiygd+hd0g6UNJ3qbldXhma6Uc=\n=kQ0X\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ca91b8a41bbaee110cd0ca6275f76906e8a7a9dd\nparent bdcc0a9bcfff476bcd43edc84f08423d8f415d50\nauthor Michael S. Molina <70410625+michael-s-molina@users.noreply.github.com> 1661187159 -0300\ncommitter GitHub <noreply@github.com> 1661187159 -0300\n\nfix: Drill to detail on values with comma (#21151)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/0bf4e56dc3e129d2b9239f055212249ba95521e4",
+        "html_url": "https://github.com/apache/superset/commit/0bf4e56dc3e129d2b9239f055212249ba95521e4",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/0bf4e56dc3e129d2b9239f055212249ba95521e4/comments",
+        "author": {
+            "login": "michael-s-molina",
+            "id": 70410625,
+            "node_id": "MDQ6VXNlcjcwNDEwNjI1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70410625?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/michael-s-molina",
+            "html_url": "https://github.com/michael-s-molina",
+            "followers_url": "https://api.github.com/users/michael-s-molina/followers",
+            "following_url": "https://api.github.com/users/michael-s-molina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/michael-s-molina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/michael-s-molina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/michael-s-molina/subscriptions",
+            "organizations_url": "https://api.github.com/users/michael-s-molina/orgs",
+            "repos_url": "https://api.github.com/users/michael-s-molina/repos",
+            "events_url": "https://api.github.com/users/michael-s-molina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/michael-s-molina/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bdcc0a9bcfff476bcd43edc84f08423d8f415d50",
+                "url": "https://api.github.com/repos/apache/superset/commits/bdcc0a9bcfff476bcd43edc84f08423d8f415d50",
+                "html_url": "https://github.com/apache/superset/commit/bdcc0a9bcfff476bcd43edc84f08423d8f415d50"
+            }
+        ]
+    },
+    {
+        "sha": "bdcc0a9bcfff476bcd43edc84f08423d8f415d50",
+        "node_id": "C_kwDOAlosUtoAKGJkY2MwYTliY2ZmZjQ3NmJjZDQzZWRjODRmMDg0MjNkOGY0MTVkNTA",
+        "commit": {
+            "author": {
+                "name": "Antonio Rivero Martinez",
+                "email": "38889534+Antonio-RiveroMartnez@users.noreply.github.com",
+                "date": "2022-08-22T14:55:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T14:55:09Z"
+            },
+            "message": "fix(charts): Hide Values greater than Max Y Axis Bound on Mixed Time Series with Bar series (#21015)\n\n* Mixed TimeSeries:\r\n\r\n- When Bar chart is used as serie type, we need to hide values that are greater than the max Y Axis Bound.\r\n\r\n* Mixed Time Series:\r\n\r\n- Simplify logic for getOverMaxHiddenFormatter\r\n\r\n* Mixed Time Series:\r\n\r\n- Add tests for new getOverMaxHiddenFormatter util func",
+            "tree": {
+                "sha": "445fa98f04d4eea149e770483dd295027f8018bf",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/445fa98f04d4eea149e770483dd295027f8018bf"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/bdcc0a9bcfff476bcd43edc84f08423d8f415d50",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjA5jNCRBK7hj4Ov3rIwAA9zUIAIRqWrywlzLkiK2lEIbyacX/\nYVlqAx+uJfJyykuXMuu1QL/uNwH8V9oKktp+2Yd4dBEVaWgvULoWyv79jubD9B1F\nK8z/nV8TFk1wtN8MqXC4K69UNOVSEVU6NQvelnCjU5QiEprJ3JvWFNM+vgpqriMP\nOyynyJ3P2wHJJHxshUrpuPq5cEqO9ceny340d3Glo4fWXmx5cipIz/hAwh5z0mPF\noZpAMSSZkgI0mH0VOsPxWfYSBelLDESOCqIQeybz0P/d3ro1wyvW/dV7NmImfOnS\nN4D3TKr8U0n5PMeSbmrXmAKeZxayCoybmwg+GPDPr8n2++Di6fmZVQsef+2xmKA=\n=Db84\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 445fa98f04d4eea149e770483dd295027f8018bf\nparent d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38\nauthor Antonio Rivero Martinez <38889534+Antonio-RiveroMartnez@users.noreply.github.com> 1661180109 -0300\ncommitter GitHub <noreply@github.com> 1661180109 -0600\n\nfix(charts): Hide Values greater than Max Y Axis Bound on Mixed Time Series with Bar series (#21015)\n\n* Mixed TimeSeries:\r\n\r\n- When Bar chart is used as serie type, we need to hide values that are greater than the max Y Axis Bound.\r\n\r\n* Mixed Time Series:\r\n\r\n- Simplify logic for getOverMaxHiddenFormatter\r\n\r\n* Mixed Time Series:\r\n\r\n- Add tests for new getOverMaxHiddenFormatter util func"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/bdcc0a9bcfff476bcd43edc84f08423d8f415d50",
+        "html_url": "https://github.com/apache/superset/commit/bdcc0a9bcfff476bcd43edc84f08423d8f415d50",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/bdcc0a9bcfff476bcd43edc84f08423d8f415d50/comments",
+        "author": {
+            "login": "Antonio-RiveroMartnez",
+            "id": 38889534,
+            "node_id": "MDQ6VXNlcjM4ODg5NTM0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/38889534?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Antonio-RiveroMartnez",
+            "html_url": "https://github.com/Antonio-RiveroMartnez",
+            "followers_url": "https://api.github.com/users/Antonio-RiveroMartnez/followers",
+            "following_url": "https://api.github.com/users/Antonio-RiveroMartnez/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Antonio-RiveroMartnez/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Antonio-RiveroMartnez/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Antonio-RiveroMartnez/subscriptions",
+            "organizations_url": "https://api.github.com/users/Antonio-RiveroMartnez/orgs",
+            "repos_url": "https://api.github.com/users/Antonio-RiveroMartnez/repos",
+            "events_url": "https://api.github.com/users/Antonio-RiveroMartnez/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Antonio-RiveroMartnez/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38",
+                "url": "https://api.github.com/repos/apache/superset/commits/d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38",
+                "html_url": "https://github.com/apache/superset/commit/d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38"
+            }
+        ]
+    },
+    {
+        "sha": "d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38",
+        "node_id": "C_kwDOAlosUtoAKGQ0NDIwMmYwM2MyZDYyM2FhMmU2ZWRhOWI3ZjQyZDM4ZmRkOGNmMzg",
+        "commit": {
+            "author": {
+                "name": "Rajakavitha Kodhandapani",
+                "email": "krajakavitha@gmail.com",
+                "date": "2022-08-22T14:16:46Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T14:16:46Z"
+            },
+            "message": "docs: added timescaledb (#21128)",
+            "tree": {
+                "sha": "4255e6ec2bd7c25b620a0fbdea3d472a4e3a5eae",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/4255e6ec2bd7c25b620a0fbdea3d472a4e3a5eae"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjA4/OCRBK7hj4Ov3rIwAAaeAIAD2leTUgDVeUO2BbRpaRJE03\n4l/0h9x4qi/EHTS88OBIK9Z3vgI/QAManiTZD+mBLx9PJawshJW8FKtZYfU2ziYW\njuRe56fcIfN9H3jpnJ9l6G4jjdezWx/DPyvTSUR5+AE+mfFXwW02AD4QNyj+zK6c\nlrOCfftpoJERSl+K+YUhVRJxuyBWXZZt97eOn7kIEXcGMripMVKvDGAifk0CF0/8\nxuz3TTGbQtbz02uj0bpyiMCKIvQqX19H9sFKCJhjJs6RJKQrEdzOMGTn4qR3VFPJ\nopaOlZFr51tVyNjW6JnoINxBQPQ1Y0vy/kFSOf0voeXV4tki97qw55MeyPPdwQw=\n=60Ej\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4255e6ec2bd7c25b620a0fbdea3d472a4e3a5eae\nparent d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d\nauthor Rajakavitha Kodhandapani <krajakavitha@gmail.com> 1661177806 +0530\ncommitter GitHub <noreply@github.com> 1661177806 +0800\n\ndocs: added timescaledb (#21128)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38",
+        "html_url": "https://github.com/apache/superset/commit/d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/d44202f03c2d623aa2e6eda9b7f42d38fdd8cf38/comments",
+        "author": {
+            "login": "Rajakavitha1",
+            "id": 37059749,
+            "node_id": "MDQ6VXNlcjM3MDU5NzQ5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37059749?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rajakavitha1",
+            "html_url": "https://github.com/Rajakavitha1",
+            "followers_url": "https://api.github.com/users/Rajakavitha1/followers",
+            "following_url": "https://api.github.com/users/Rajakavitha1/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rajakavitha1/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rajakavitha1/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rajakavitha1/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rajakavitha1/orgs",
+            "repos_url": "https://api.github.com/users/Rajakavitha1/repos",
+            "events_url": "https://api.github.com/users/Rajakavitha1/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rajakavitha1/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d",
+                "url": "https://api.github.com/repos/apache/superset/commits/d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d",
+                "html_url": "https://github.com/apache/superset/commit/d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d"
+            }
+        ]
+    },
+    {
+        "sha": "d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d",
+        "node_id": "C_kwDOAlosUtoAKGQ3OWIwYmZjNzQ0ODg1ZjZlNmYwYjVlOWE0MTI4YzYzYzFkZWE1OGQ",
+        "commit": {
+            "author": {
+                "name": "stevetracvc",
+                "email": "70416691+stevetracvc@users.noreply.github.com",
+                "date": "2022-08-22T14:15:33Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T14:15:33Z"
+            },
+            "message": "fix(native filters): groupby filter issue (#21084)",
+            "tree": {
+                "sha": "40784a1878bbde5773f1e0aba55cddd57e0192ca",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/40784a1878bbde5773f1e0aba55cddd57e0192ca"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjA4+FCRBK7hj4Ov3rIwAAD3EIAEiiIr8kIwm6QoPTryQVAq/D\n9xNOoQilBKjTEiz9YHlQ3zEySs9nc9rcIXbGcmVdqXdO7tEigPhyVnp6pY/iK0RC\navhEX4+u2DICmeqGewbO07DlwTrB0IvJa8TPz0hEAjzmx7M/jXMucZeF/RE4Y8Zq\nYJ9gFI1fkTgeLW4Njb9mMUALUDUGpbSdxPXi/JnmNs8Gda+mvM5eruB0OW8L7DEW\n+ftpDwO+aig9KFy6G/RBXEJ+Ut7JDravbFCGZGNmGubs4Mmubi/zDciC9697adYZ\nFWGorrmgX+wV3OLIoCh9NvXaHflw6H9tp56m85RVwXIrGXu4rpLjC7/n72ENMkg=\n=IWDa\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 40784a1878bbde5773f1e0aba55cddd57e0192ca\nparent 11bf7b9125eefd93796a46d964c3f027fbc9ce4d\nauthor stevetracvc <70416691+stevetracvc@users.noreply.github.com> 1661177733 -0600\ncommitter GitHub <noreply@github.com> 1661177733 +0800\n\nfix(native filters): groupby filter issue (#21084)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d",
+        "html_url": "https://github.com/apache/superset/commit/d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/d79b0bfc744885f6e6f0b5e9a4128c63c1dea58d/comments",
+        "author": {
+            "login": "stevetracvc",
+            "id": 70416691,
+            "node_id": "MDQ6VXNlcjcwNDE2Njkx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70416691?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stevetracvc",
+            "html_url": "https://github.com/stevetracvc",
+            "followers_url": "https://api.github.com/users/stevetracvc/followers",
+            "following_url": "https://api.github.com/users/stevetracvc/following{/other_user}",
+            "gists_url": "https://api.github.com/users/stevetracvc/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/stevetracvc/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/stevetracvc/subscriptions",
+            "organizations_url": "https://api.github.com/users/stevetracvc/orgs",
+            "repos_url": "https://api.github.com/users/stevetracvc/repos",
+            "events_url": "https://api.github.com/users/stevetracvc/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/stevetracvc/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "11bf7b9125eefd93796a46d964c3f027fbc9ce4d",
+                "url": "https://api.github.com/repos/apache/superset/commits/11bf7b9125eefd93796a46d964c3f027fbc9ce4d",
+                "html_url": "https://github.com/apache/superset/commit/11bf7b9125eefd93796a46d964c3f027fbc9ce4d"
+            }
+        ]
+    },
+    {
+        "sha": "11bf7b9125eefd93796a46d964c3f027fbc9ce4d",
+        "node_id": "C_kwDOAlosUtoAKDExYmY3YjkxMjVlZWZkOTM3OTZhNDZkOTY0YzNmMDI3ZmJjOWNlNGQ",
+        "commit": {
+            "author": {
+                "name": "Yongjie Zhao",
+                "email": "yongjie.zhao@gmail.com",
+                "date": "2022-08-22T13:00:02Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T13:00:02Z"
+            },
+            "message": "feat: generate label map on the backend (#21124)",
+            "tree": {
+                "sha": "6c6f25b41fb9d53ca1877d45335086360e7a72d9",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/6c6f25b41fb9d53ca1877d45335086360e7a72d9"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/11bf7b9125eefd93796a46d964c3f027fbc9ce4d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjA33SCRBK7hj4Ov3rIwAAzuQIAHRgxcwIE4M6oNU1efqcfe3V\nDwvDFigucmYt1FnxPOO83ynOYVu2ojyNeSapu0YmZ3PaM1UWbN2tD6ITT7VKqRSp\nx3bK8e2faonPWx94NXfrfy69xor9jHduVKYd/GaIDENWGT/0Sc7WnRL0C1meTFnE\nUsBypTIegGGNz0cSOGsYLEr+ESkXH0bizTK0feWU2LEOI5tGznpRmCVghcjEApj7\nmeo0Dmj3gsoGiKEwIwjzWHrObVtvpucFsYmrZYxqXR4mWqdGe1gVDiXRvWMsFgzR\nedlWPe9qYIP28WvMG2kYKgyY8q8QwfN3QBQUTWa7/geR6Vns1vH2+IkCF62Yf2s=\n=roQR\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6c6f25b41fb9d53ca1877d45335086360e7a72d9\nparent 756ed0e36acead74944112a8b678a7151319c26f\nauthor Yongjie Zhao <yongjie.zhao@gmail.com> 1661173202 +0800\ncommitter GitHub <noreply@github.com> 1661173202 +0800\n\nfeat: generate label map on the backend (#21124)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/11bf7b9125eefd93796a46d964c3f027fbc9ce4d",
+        "html_url": "https://github.com/apache/superset/commit/11bf7b9125eefd93796a46d964c3f027fbc9ce4d",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/11bf7b9125eefd93796a46d964c3f027fbc9ce4d/comments",
+        "author": {
+            "login": "zhaoyongjie",
+            "id": 2016594,
+            "node_id": "MDQ6VXNlcjIwMTY1OTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2016594?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zhaoyongjie",
+            "html_url": "https://github.com/zhaoyongjie",
+            "followers_url": "https://api.github.com/users/zhaoyongjie/followers",
+            "following_url": "https://api.github.com/users/zhaoyongjie/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zhaoyongjie/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zhaoyongjie/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zhaoyongjie/subscriptions",
+            "organizations_url": "https://api.github.com/users/zhaoyongjie/orgs",
+            "repos_url": "https://api.github.com/users/zhaoyongjie/repos",
+            "events_url": "https://api.github.com/users/zhaoyongjie/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zhaoyongjie/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "756ed0e36acead74944112a8b678a7151319c26f",
+                "url": "https://api.github.com/repos/apache/superset/commits/756ed0e36acead74944112a8b678a7151319c26f",
+                "html_url": "https://github.com/apache/superset/commit/756ed0e36acead74944112a8b678a7151319c26f"
+            }
+        ]
+    },
+    {
+        "sha": "756ed0e36acead74944112a8b678a7151319c26f",
+        "node_id": "C_kwDOAlosUtoAKDc1NmVkMGUzNmFjZWFkNzQ5NDQxMTJhOGI2NzhhNzE1MTMxOWMyNmY",
+        "commit": {
+            "author": {
+                "name": "Geido",
+                "email": "60598000+geido@users.noreply.github.com",
+                "date": "2022-08-22T07:44:15Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T07:44:15Z"
+            },
+            "message": "feat: Add label and tooltip for the color schemes control (#21040)\n\n* Add tooltip\r\n\r\n* Remove title\r\n\r\n* Add license\r\n\r\n* Enhance E2E tests\r\n\r\n* Update tests\r\n\r\n* Lint and test fixes\r\n\r\n* Enhance layout",
+            "tree": {
+                "sha": "159d4e2104e3cad0c93816380809464b3542e5ef",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/159d4e2104e3cad0c93816380809464b3542e5ef"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/756ed0e36acead74944112a8b678a7151319c26f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAzPPCRBK7hj4Ov3rIwAAwt0IAGVnqRcEE+dTeHU/WVLUFxJm\nW9S2WX6KAw8xDc67t6rGk07VuPyyRjxWEwdwYZGATqW3PCfZfG96ZVf17nvTplry\nC6LCbMvBiJ5M91Rs8rDVz7E+3GphQg69oQRzIpuzXsPRtU6zpJK2/YyAV6ArOKnb\nq113jWmAgDRSewb1xKqMqV7MA5vCpyLooOKgvnPbxh8LHZzjhdrExsLC02ZWwRjl\ndJnSruBE3HUOrX/rbRrmG1Nk1+v4cRktcQi5mX1kihRtqln3v/DOd8H3wU2oMoeZ\npWbpOIRNVRAjxz/swh2zobH8fQLbZrdQhnqS9cIq9YRVIQff+JS40RdzqWDEcJQ=\n=SMPQ\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 159d4e2104e3cad0c93816380809464b3542e5ef\nparent a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9\nauthor Geido <60598000+geido@users.noreply.github.com> 1661154255 +0300\ncommitter GitHub <noreply@github.com> 1661154255 +0300\n\nfeat: Add label and tooltip for the color schemes control (#21040)\n\n* Add tooltip\r\n\r\n* Remove title\r\n\r\n* Add license\r\n\r\n* Enhance E2E tests\r\n\r\n* Update tests\r\n\r\n* Lint and test fixes\r\n\r\n* Enhance layout"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/756ed0e36acead74944112a8b678a7151319c26f",
+        "html_url": "https://github.com/apache/superset/commit/756ed0e36acead74944112a8b678a7151319c26f",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/756ed0e36acead74944112a8b678a7151319c26f/comments",
+        "author": {
+            "login": "geido",
+            "id": 60598000,
+            "node_id": "MDQ6VXNlcjYwNTk4MDAw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/60598000?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/geido",
+            "html_url": "https://github.com/geido",
+            "followers_url": "https://api.github.com/users/geido/followers",
+            "following_url": "https://api.github.com/users/geido/following{/other_user}",
+            "gists_url": "https://api.github.com/users/geido/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/geido/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/geido/subscriptions",
+            "organizations_url": "https://api.github.com/users/geido/orgs",
+            "repos_url": "https://api.github.com/users/geido/repos",
+            "events_url": "https://api.github.com/users/geido/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/geido/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9",
+                "url": "https://api.github.com/repos/apache/superset/commits/a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9",
+                "html_url": "https://github.com/apache/superset/commit/a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9"
+            }
+        ]
+    },
+    {
+        "sha": "a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9",
+        "node_id": "C_kwDOAlosUtoAKGExMzg5ZDNhOWY5MGE2ZGMxY2ExZmI2MjAzYTkwZjhiYTcwMjE0YTk",
+        "commit": {
+            "author": {
+                "name": "JUST.in DO IT",
+                "email": "justin.park@airbnb.com",
+                "date": "2022-08-22T07:43:42Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T07:43:42Z"
+            },
+            "message": "fix(sqllab): avoid unexpected re-rendering on DatabaseSelector (#21141)",
+            "tree": {
+                "sha": "3ecf32cf113e8ff103428947e46103102c6dd695",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/3ecf32cf113e8ff103428947e46103102c6dd695"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAzOuCRBK7hj4Ov3rIwAAmroIAAsLL8sHGiKB31jU3sRHm4o7\nqy5rySq1RZ90r7bO/oR3BTGHnhAODeFvvl0pthv3Jx/h0OlKYgErADDcd+fAauLs\nP9k+D09a9sFY7JAvUqkR6LVa9TVGX8JdhkThMddfhNKpKD5VXq4cN+M9mrJyCRnz\nBy+6dScms0gaf/Wn2CPlEy32j7NPttMBfaZSGCPt1s1NtvPIzU7BUik6aELxm8q3\n33cPu+4b1S/udcPe101AF6TXK0VfVoxD3CIlxRArdd0jdnrVKSC3QXQz412XxG2r\nlC/nsih3qYQCY7tbsNe4TagE3Wq3ip3K8Yi2ZmZyEgqLrT8WSPJWH6OzbnUwjSg=\n=Wdki\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3ecf32cf113e8ff103428947e46103102c6dd695\nparent fea68ef23cd19853f6ceee42802ac3b4b1b05da0\nauthor JUST.in DO IT <justin.park@airbnb.com> 1661154222 -0700\ncommitter GitHub <noreply@github.com> 1661154222 +0800\n\nfix(sqllab): avoid unexpected re-rendering on DatabaseSelector (#21141)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9",
+        "html_url": "https://github.com/apache/superset/commit/a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/a1389d3a9f90a6dc1ca1fb6203a90f8ba70214a9/comments",
+        "author": {
+            "login": "justinpark",
+            "id": 1392866,
+            "node_id": "MDQ6VXNlcjEzOTI4NjY=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1392866?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/justinpark",
+            "html_url": "https://github.com/justinpark",
+            "followers_url": "https://api.github.com/users/justinpark/followers",
+            "following_url": "https://api.github.com/users/justinpark/following{/other_user}",
+            "gists_url": "https://api.github.com/users/justinpark/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/justinpark/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/justinpark/subscriptions",
+            "organizations_url": "https://api.github.com/users/justinpark/orgs",
+            "repos_url": "https://api.github.com/users/justinpark/repos",
+            "events_url": "https://api.github.com/users/justinpark/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/justinpark/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fea68ef23cd19853f6ceee42802ac3b4b1b05da0",
+                "url": "https://api.github.com/repos/apache/superset/commits/fea68ef23cd19853f6ceee42802ac3b4b1b05da0",
+                "html_url": "https://github.com/apache/superset/commit/fea68ef23cd19853f6ceee42802ac3b4b1b05da0"
+            }
+        ]
+    },
+    {
+        "sha": "fea68ef23cd19853f6ceee42802ac3b4b1b05da0",
+        "node_id": "C_kwDOAlosUtoAKGZlYTY4ZWYyM2NkMTk4NTNmNmNlZWU0MjgwMmFjM2I0YjFiMDVkYTA",
+        "commit": {
+            "author": {
+                "name": "Yongjie Zhao",
+                "email": "yongjie.zhao@gmail.com",
+                "date": "2022-08-22T07:42:46Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T07:42:46Z"
+            },
+            "message": "fix: resample method shouldn't be freeform (#21135)",
+            "tree": {
+                "sha": "a6b649767ba7ca6f5ee18d59837d8fac9906ad38",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/a6b649767ba7ca6f5ee18d59837d8fac9906ad38"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/fea68ef23cd19853f6ceee42802ac3b4b1b05da0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAzN2CRBK7hj4Ov3rIwAAB1gIABpEsYb/yvo4EM5mW2pNCYQS\ne0cqhS8v0iwJCt2Bs8vhDjxuVutbAMx99dHJQNfg00HAigtJ6Odk/3rWrjT2+bHs\nXHxS3MlTxA5z2T+zvKoBonUY7UAxxQtV+7REHGTcUbVFZJi5ZZIZQ47xOJPOM7ZR\nXRQ4F5zJe33fj5maWv0vugaLnmPQHloz1KtkWKFg/Pg7BpLhBoc4bQAFIsIyrb0h\nrdivBqjS3GOowiq1AukQDwbUQ675t94DA+K+0n7OgnNQ7FCE7zng4x5Lm7AhwfuU\nQzbhGIqRCp000sNdSF1klL4e/2eIkI68oWxhWKYUuolSlEAkiJkv2eF9jlVmFz0=\n=LnE6\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a6b649767ba7ca6f5ee18d59837d8fac9906ad38\nparent 15b9f83150a5ac47ada5253b69e54df019bfb2a1\nauthor Yongjie Zhao <yongjie.zhao@gmail.com> 1661154166 +0800\ncommitter GitHub <noreply@github.com> 1661154166 +0800\n\nfix: resample method shouldn't be freeform (#21135)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/fea68ef23cd19853f6ceee42802ac3b4b1b05da0",
+        "html_url": "https://github.com/apache/superset/commit/fea68ef23cd19853f6ceee42802ac3b4b1b05da0",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/fea68ef23cd19853f6ceee42802ac3b4b1b05da0/comments",
+        "author": {
+            "login": "zhaoyongjie",
+            "id": 2016594,
+            "node_id": "MDQ6VXNlcjIwMTY1OTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2016594?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zhaoyongjie",
+            "html_url": "https://github.com/zhaoyongjie",
+            "followers_url": "https://api.github.com/users/zhaoyongjie/followers",
+            "following_url": "https://api.github.com/users/zhaoyongjie/following{/other_user}",
+            "gists_url": "https://api.github.com/users/zhaoyongjie/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/zhaoyongjie/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/zhaoyongjie/subscriptions",
+            "organizations_url": "https://api.github.com/users/zhaoyongjie/orgs",
+            "repos_url": "https://api.github.com/users/zhaoyongjie/repos",
+            "events_url": "https://api.github.com/users/zhaoyongjie/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/zhaoyongjie/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "15b9f83150a5ac47ada5253b69e54df019bfb2a1",
+                "url": "https://api.github.com/repos/apache/superset/commits/15b9f83150a5ac47ada5253b69e54df019bfb2a1",
+                "html_url": "https://github.com/apache/superset/commit/15b9f83150a5ac47ada5253b69e54df019bfb2a1"
+            }
+        ]
+    },
+    {
+        "sha": "15b9f83150a5ac47ada5253b69e54df019bfb2a1",
+        "node_id": "C_kwDOAlosUtoAKDE1YjlmODMxNTBhNWFjNDdhZGE1MjUzYjY5ZTU0ZGYwMTliZmIyYTE",
+        "commit": {
+            "author": {
+                "name": "Diego Medina",
+                "email": "diegomedina24@gmail.com",
+                "date": "2022-08-22T07:15:04Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T07:15:04Z"
+            },
+            "message": "chore: support trailing slashes in database api (#21123)",
+            "tree": {
+                "sha": "9db7ea7512c6f0e10da598fffb46ef1b6c4d1671",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/9db7ea7512c6f0e10da598fffb46ef1b6c4d1671"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/15b9f83150a5ac47ada5253b69e54df019bfb2a1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAyz4CRBK7hj4Ov3rIwAAFKkIAAjeIC06YlR6etBjOZZuz8Xo\n3meyx+awBlj0w/r64Fch5Ktnmfd0nq8tWR23Xfnq1NIKBhIgvdfzFbTBKRnTv2tp\n/EDcsl97YJbjIha32jXz95TK3c3vA0CTqieaO/NKKCVR6aDjg9BKMYPCAJn11FPG\nnJWPsjGwZljLzhmUppk1IY7jCuxKV6yQR3nh6Obc/6ma0i7wodgeHL91FLQ3Jzfq\ncaCvyHrhBFNuk6l/18eHrNkAPiXm76AyYajjn6+3oEbomScsoiezlOWrPAK+14sE\nBjHvWTUC7GPBFKgILE2Yfs1ldP7T/Cpl2z8Rjn72JL/7gUU4FqZiWH4kuc0g14g=\n=Gt1I\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 9db7ea7512c6f0e10da598fffb46ef1b6c4d1671\nparent e70699fb433849e07af81ea1812f20aa271d028e\nauthor Diego Medina <diegomedina24@gmail.com> 1661152504 -0300\ncommitter GitHub <noreply@github.com> 1661152504 +0800\n\nchore: support trailing slashes in database api (#21123)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/15b9f83150a5ac47ada5253b69e54df019bfb2a1",
+        "html_url": "https://github.com/apache/superset/commit/15b9f83150a5ac47ada5253b69e54df019bfb2a1",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/15b9f83150a5ac47ada5253b69e54df019bfb2a1/comments",
+        "author": {
+            "login": "diegomedina248",
+            "id": 17252075,
+            "node_id": "MDQ6VXNlcjE3MjUyMDc1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17252075?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/diegomedina248",
+            "html_url": "https://github.com/diegomedina248",
+            "followers_url": "https://api.github.com/users/diegomedina248/followers",
+            "following_url": "https://api.github.com/users/diegomedina248/following{/other_user}",
+            "gists_url": "https://api.github.com/users/diegomedina248/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/diegomedina248/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/diegomedina248/subscriptions",
+            "organizations_url": "https://api.github.com/users/diegomedina248/orgs",
+            "repos_url": "https://api.github.com/users/diegomedina248/repos",
+            "events_url": "https://api.github.com/users/diegomedina248/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/diegomedina248/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e70699fb433849e07af81ea1812f20aa271d028e",
+                "url": "https://api.github.com/repos/apache/superset/commits/e70699fb433849e07af81ea1812f20aa271d028e",
+                "html_url": "https://github.com/apache/superset/commit/e70699fb433849e07af81ea1812f20aa271d028e"
+            }
+        ]
+    },
+    {
+        "sha": "e70699fb433849e07af81ea1812f20aa271d028e",
+        "node_id": "C_kwDOAlosUtoAKGU3MDY5OWZiNDMzODQ5ZTA3YWY4MWVhMTgxMmYyMGFhMjcxZDAyOGU",
+        "commit": {
+            "author": {
+                "name": "Stephen Liu",
+                "email": "750188453@qq.com",
+                "date": "2022-08-22T07:00:34Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T07:00:34Z"
+            },
+            "message": "fix(plugin-chart-handlebars): order by control not work (#21005)",
+            "tree": {
+                "sha": "3434ca9c37db70a4f8f0e429406f2431df0b3957",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/3434ca9c37db70a4f8f0e429406f2431df0b3957"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/e70699fb433849e07af81ea1812f20aa271d028e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAymSCRBK7hj4Ov3rIwAAdMEIAFXcy7D/ODRIbOa3x0OzUnKa\nsUmEmalmbJTc6fHy90vr8Kr2j+4w8fp+KOEwErzWNwMMnTloWLQWrNm8svKBVndO\nbCl9dXhsoSAdImeyoh2K0OkAQjCDFcPMHTt6+a3LztjzRghmprkWLa+6qDIHg+jg\nhgS96K7Du+UutDzzZcGqA2Pcwkl6la7cNqDsUIBOT856AxyrPNVk8O+/J2efZtPB\nsPqXWoRbl/f0iXs5GOY4fgYgy/krkqvDXO00oct3FDPCcvQe4M1/+wMqMzcCpLfs\nJkOly4TjZ4BD/wWIiTPNyfRrpAFxe7UbeLbvAiT8e64eARYtNtbez4oS9XPGrew=\n=Vj6E\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3434ca9c37db70a4f8f0e429406f2431df0b3957\nparent 7c0963f6ae9daaca83254324fe0b4f3f508a4257\nauthor Stephen Liu <750188453@qq.com> 1661151634 +0800\ncommitter GitHub <noreply@github.com> 1661151634 +0800\n\nfix(plugin-chart-handlebars): order by control not work (#21005)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/e70699fb433849e07af81ea1812f20aa271d028e",
+        "html_url": "https://github.com/apache/superset/commit/e70699fb433849e07af81ea1812f20aa271d028e",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/e70699fb433849e07af81ea1812f20aa271d028e/comments",
+        "author": {
+            "login": "stephenLYZ",
+            "id": 11830681,
+            "node_id": "MDQ6VXNlcjExODMwNjgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11830681?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stephenLYZ",
+            "html_url": "https://github.com/stephenLYZ",
+            "followers_url": "https://api.github.com/users/stephenLYZ/followers",
+            "following_url": "https://api.github.com/users/stephenLYZ/following{/other_user}",
+            "gists_url": "https://api.github.com/users/stephenLYZ/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/stephenLYZ/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/stephenLYZ/subscriptions",
+            "organizations_url": "https://api.github.com/users/stephenLYZ/orgs",
+            "repos_url": "https://api.github.com/users/stephenLYZ/repos",
+            "events_url": "https://api.github.com/users/stephenLYZ/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/stephenLYZ/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7c0963f6ae9daaca83254324fe0b4f3f508a4257",
+                "url": "https://api.github.com/repos/apache/superset/commits/7c0963f6ae9daaca83254324fe0b4f3f508a4257",
+                "html_url": "https://github.com/apache/superset/commit/7c0963f6ae9daaca83254324fe0b4f3f508a4257"
+            }
+        ]
+    },
+    {
+        "sha": "7c0963f6ae9daaca83254324fe0b4f3f508a4257",
+        "node_id": "C_kwDOAlosUtoAKDdjMDk2M2Y2YWU5ZGFhY2E4MzI1NDMyNGZlMGI0ZjNmNTA4YTQyNTc",
+        "commit": {
+            "author": {
+                "name": "EugeneTorap",
+                "email": "evgenykrutpro@gmail.com",
+                "date": "2022-08-22T06:19:36Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T06:19:36Z"
+            },
+            "message": "chore: refactor FilterableTable to functional component (#21136)",
+            "tree": {
+                "sha": "81e443094e93b1e6200081ab789ca61aa92132a2",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/81e443094e93b1e6200081ab789ca61aa92132a2"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/7c0963f6ae9daaca83254324fe0b4f3f508a4257",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAx/4CRBK7hj4Ov3rIwAAFBMIAK7w64rdqC1K6BcCuFktv3iW\nx66rerRLp4Hmjcgs8Yg0HfjttROd1U4cvWtRKbCPosa7akL0qdGFxpAn4OAxa+JL\ncgmHh5S+UMum8YhSFTG7hwMDUSJFBvPrMapqOgNUixdl6d0tXD0lBWIUkhdNdeBe\nqAXrOi9bpH9GL9GWgI72TBl6KIuzbXDkR3qQUBkMyxNgcwFi2l50fA4tPtAMcGhd\ny4g5W/V33SGiM2JA5DAoLFux9YYmFxouejNNM552P1Ls8RiWA06aLe8LOHspHFIR\nX5y3mWWgz+jVlL8+jNOIqMBwog7yQ+kxmZPwsHJjGhNqwAja8V/Oinz8Ha///tg=\n=WD1w\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 81e443094e93b1e6200081ab789ca61aa92132a2\nparent 25c2b7f761d2ac7ad59dbb0353744167dacb280f\nauthor EugeneTorap <evgenykrutpro@gmail.com> 1661149176 +0300\ncommitter GitHub <noreply@github.com> 1661149176 +0800\n\nchore: refactor FilterableTable to functional component (#21136)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/7c0963f6ae9daaca83254324fe0b4f3f508a4257",
+        "html_url": "https://github.com/apache/superset/commit/7c0963f6ae9daaca83254324fe0b4f3f508a4257",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/7c0963f6ae9daaca83254324fe0b4f3f508a4257/comments",
+        "author": {
+            "login": "EugeneTorap",
+            "id": 29536522,
+            "node_id": "MDQ6VXNlcjI5NTM2NTIy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29536522?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EugeneTorap",
+            "html_url": "https://github.com/EugeneTorap",
+            "followers_url": "https://api.github.com/users/EugeneTorap/followers",
+            "following_url": "https://api.github.com/users/EugeneTorap/following{/other_user}",
+            "gists_url": "https://api.github.com/users/EugeneTorap/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/EugeneTorap/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/EugeneTorap/subscriptions",
+            "organizations_url": "https://api.github.com/users/EugeneTorap/orgs",
+            "repos_url": "https://api.github.com/users/EugeneTorap/repos",
+            "events_url": "https://api.github.com/users/EugeneTorap/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/EugeneTorap/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "25c2b7f761d2ac7ad59dbb0353744167dacb280f",
+                "url": "https://api.github.com/repos/apache/superset/commits/25c2b7f761d2ac7ad59dbb0353744167dacb280f",
+                "html_url": "https://github.com/apache/superset/commit/25c2b7f761d2ac7ad59dbb0353744167dacb280f"
+            }
+        ]
+    },
+    {
+        "sha": "25c2b7f761d2ac7ad59dbb0353744167dacb280f",
+        "node_id": "C_kwDOAlosUtoAKDI1YzJiN2Y3NjFkMmFjN2FkNTlkYmIwMzUzNzQ0MTY3ZGFjYjI4MGY",
+        "commit": {
+            "author": {
+                "name": "Diego Medina",
+                "email": "diegomedina24@gmail.com",
+                "date": "2022-08-22T02:55:04Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-22T02:55:04Z"
+            },
+            "message": "chore(deps): bump jsprim to 1.4.2 (#21104)",
+            "tree": {
+                "sha": "3e915d1bfb0eb5d5a06a19d490320580f92095e4",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/3e915d1bfb0eb5d5a06a19d490320580f92095e4"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/25c2b7f761d2ac7ad59dbb0353744167dacb280f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAvAICRBK7hj4Ov3rIwAA7yQIADmgjiH20J+lEioYSNNbsuCC\nUFaLGzszTRt2PQsHq/Qf4rjK5f0jHFzXEQjBj2COAw2+lcI80BQCt+aIfxrEuwzy\naLGmBIjzPJC/3kQCnoFNNgxMH7HID/EOh0tBuAIhnmWW5YsHz3KvvN2ylHEwmK4t\n1aqRNEN+98A5d7242bqyUsXcLGNM9oACPSKFTd+2eCfNOJwWixNHNOfSEUBSe5t7\n+K+HVZF9UtR1CXfwzA5fu/fZMZ/ram3ZprIUrZAOAhJ1VkN3MEoesgv8o+RvEtQY\naYmZOHjak+mToCu89SfrrKwuoNSSmJrFMmQEM7DBrFxtU8eaC+j7TNJQspoAh0U=\n=Xgxe\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3e915d1bfb0eb5d5a06a19d490320580f92095e4\nparent a27f246effbc422d80fb2d6f7c5a7919749fd9e1\nauthor Diego Medina <diegomedina24@gmail.com> 1661136904 -0300\ncommitter GitHub <noreply@github.com> 1661136904 +0800\n\nchore(deps): bump jsprim to 1.4.2 (#21104)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/25c2b7f761d2ac7ad59dbb0353744167dacb280f",
+        "html_url": "https://github.com/apache/superset/commit/25c2b7f761d2ac7ad59dbb0353744167dacb280f",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/25c2b7f761d2ac7ad59dbb0353744167dacb280f/comments",
+        "author": {
+            "login": "diegomedina248",
+            "id": 17252075,
+            "node_id": "MDQ6VXNlcjE3MjUyMDc1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17252075?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/diegomedina248",
+            "html_url": "https://github.com/diegomedina248",
+            "followers_url": "https://api.github.com/users/diegomedina248/followers",
+            "following_url": "https://api.github.com/users/diegomedina248/following{/other_user}",
+            "gists_url": "https://api.github.com/users/diegomedina248/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/diegomedina248/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/diegomedina248/subscriptions",
+            "organizations_url": "https://api.github.com/users/diegomedina248/orgs",
+            "repos_url": "https://api.github.com/users/diegomedina248/repos",
+            "events_url": "https://api.github.com/users/diegomedina248/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/diegomedina248/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a27f246effbc422d80fb2d6f7c5a7919749fd9e1",
+                "url": "https://api.github.com/repos/apache/superset/commits/a27f246effbc422d80fb2d6f7c5a7919749fd9e1",
+                "html_url": "https://github.com/apache/superset/commit/a27f246effbc422d80fb2d6f7c5a7919749fd9e1"
+            }
+        ]
+    },
+    {
+        "sha": "a27f246effbc422d80fb2d6f7c5a7919749fd9e1",
+        "node_id": "C_kwDOAlosUtoAKGEyN2YyNDZlZmZiYzQyMmQ4MGZiMmQ2ZjdjNWE3OTE5NzQ5ZmQ5ZTE",
+        "commit": {
+            "author": {
+                "name": "John Bodley",
+                "email": "4567245+john-bodley@users.noreply.github.com",
+                "date": "2022-08-20T02:57:02Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-08-20T02:57:02Z"
+            },
+            "message": "chore(fab): Expose the TableColumnInlineView extra column listed in the legacy FAB API #21118 (#21142)",
+            "tree": {
+                "sha": "5e36589b318f2a4a42c05bb2d5b64809b8f105ce",
+                "url": "https://api.github.com/repos/apache/superset/git/trees/5e36589b318f2a4a42c05bb2d5b64809b8f105ce"
+            },
+            "url": "https://api.github.com/repos/apache/superset/git/commits/a27f246effbc422d80fb2d6f7c5a7919749fd9e1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAE1+CRBK7hj4Ov3rIwAAOowIAH8DAzHivlek6gLrMU5D70mu\nQxUi0kSwNDek8HSwfftj5NUCmu9CTAL7EZN1TOEsFkAN8huYPwhfMx+r8qmcSp59\nQfbPGQco1HhHP0loZ2+/4ynnAJ1H+F5HJ7KcGOw6JKmcjDsopVkecBD7buoXA+oU\n5dvN8R6ULoIW9xMslynGnrqU7OwV0ianXjL36OolnKyDWmhf6p3l8q8fimdF3n/w\n1HpCdtUXHM2gUzR6zcnKyFlJTKP3zj787HUnjH16Ryt9tFs2cCQB85J5ILfsDOL4\nDTpeL+xq1iBKwk2kUdjMdkYMUMzXwRlCJQ1atPDtambuCsazKnZb97WXBnTKHL0=\n=Rn/8\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5e36589b318f2a4a42c05bb2d5b64809b8f105ce\nparent 252ceb704539733fc049eaf276bd73f16602930f\nauthor John Bodley <4567245+john-bodley@users.noreply.github.com> 1660964222 -0700\ncommitter GitHub <noreply@github.com> 1660964222 -0700\n\nchore(fab): Expose the TableColumnInlineView extra column listed in the legacy FAB API #21118 (#21142)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/apache/superset/commits/a27f246effbc422d80fb2d6f7c5a7919749fd9e1",
+        "html_url": "https://github.com/apache/superset/commit/a27f246effbc422d80fb2d6f7c5a7919749fd9e1",
+        "comments_url": "https://api.github.com/repos/apache/superset/commits/a27f246effbc422d80fb2d6f7c5a7919749fd9e1/comments",
+        "author": {
+            "login": "john-bodley",
+            "id": 4567245,
+            "node_id": "MDQ6VXNlcjQ1NjcyNDU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4567245?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/john-bodley",
+            "html_url": "https://github.com/john-bodley",
+            "followers_url": "https://api.github.com/users/john-bodley/followers",
+            "following_url": "https://api.github.com/users/john-bodley/following{/other_user}",
+            "gists_url": "https://api.github.com/users/john-bodley/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/john-bodley/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/john-bodley/subscriptions",
+            "organizations_url": "https://api.github.com/users/john-bodley/orgs",
+            "repos_url": "https://api.github.com/users/john-bodley/repos",
+            "events_url": "https://api.github.com/users/john-bodley/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/john-bodley/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "252ceb704539733fc049eaf276bd73f16602930f",
+                "url": "https://api.github.com/repos/apache/superset/commits/252ceb704539733fc049eaf276bd73f16602930f",
+                "html_url": "https://github.com/apache/superset/commit/252ceb704539733fc049eaf276bd73f16602930f"
+            }
+        ]
+    }
+]

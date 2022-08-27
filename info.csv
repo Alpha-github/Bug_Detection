@@ -1,0 +1,242 @@
+Author,email,CommHash,CommMsg,TreeHash,#Issue
+jiAng,464816158@qq.com,5c02ab7aafd3909cf341ad38c70a69076fb50d03,fix(cosmetic): Fix Datasource Modal Out Of Box (#20237),8176e60ebaf41bf3a77731cbb25a6c3fcf273bc7,[20237]
+John Bodley,4567245+john-bodley@users.noreply.github.com,2a1dcaf09bccd4a1118ab52b30ba51723088d2d3,"chore(requirements): Cleanup of requirement inputs (#20154)
+
+Co-authored-by: John Bodley <john.bodley@airbnb.com>",3ee7ae100e99798a07c9ea0f080949b20418d486,[20154]
+Elizabeth Thompson,eschutho@gmail.com,f270e49c4b00e8cbb1d1ef2356e9c6df857d1f25,"chore: use exc_info to pass errors to log warnings (#20252)
+
+* use exc_info to pass errors to log warnings
+
+* Update superset/views/base.py
+
+Co-authored-by: Beto Dealmeida <roberto@dealmeida.net>
+
+* Update superset/views/base.py
+
+Co-authored-by: Beto Dealmeida <roberto@dealmeida.net>
+
+Co-authored-by: Beto Dealmeida <roberto@dealmeida.net>",d92005f519c3a366a59ae268c0e0a044fc5d72a3,[20252]
+Smart-Codi,codemaster08240328@gmail.com,80974033c0aaec57d1c4f95848a6ff0bfcaeb7e4,fix database import with cancel_query.. extra field (#20187),419104f28d4ee0eee226d1e1742c257fa2cf6043,[20187]
+John Bodley,4567245+john-bodley@users.noreply.github.com,b08e21efd906d13994414b39bfa7f6e98466d4cb,"[requirements] Resolve rebase conflicts (#20152)
+
+Co-authored-by: John Bodley <john.bodley@airbnb.com>",842f01414d74ab9585e20a2a31f81566fa0111aa,[20152]
+Yongjie Zhao,yongjie.zhao@gmail.com,dd4b581fb55d920fc3b709fc044cea5339802ee2,feat: standardized form_data (#20010),fb3e977d85af01d53d674d1236a8549907814ad2,[20010]
+Yongjie Zhao,yongjie.zhao@gmail.com,7faf874c1b9613258606fb10f5800a185c30c81e,feat: derived metrics use different line style (#20242),921f26ac7ecc40ddcd1b2013b2c8765d28da7626,[20242]
+Yongjie Zhao,yongjie.zhao@gmail.com,41f33a38bce11b81e40a65aaa3487e9562766ef4,feat: showing results pane in dashboard (#20144),aa1b3381d0078ad96c3c24aa5b49496bd6a1e5ab,[20144]
+Stephen Liu,750188453@qq.com,54255042310b9810c09fee25d475a4a1bc8f75de,fix(codecov): improve core code coverage (#20274),d58509789f2a5161e050c0be16dc92282e96b95f,[20274]
+Ensky,enskylin@gmail.com,77e326fd95f4322951aecfe226a2c47c40af4d55,Fixes #20155 (#20273),cc34358a7b97f6b676b94768bf0c8d156b1b2ee8,"[20155, 20273]"
+AAfghahi,48933336+AAfghahi@users.noreply.github.com,c131f025f88073fce2a002466b70d088e8902a9d,"chore: add event logger to reports/alerts CRUD (#20249)
+
+* add event logger to report CRUD
+
+* added assert metric to tests
+
+* added unique name to action
+
+* testing
+
+* with inline log context",8d03e890e782a164b4d9850de58a4c8a22de4faf,[20249]
+Maxime Beauchemin,maximebeauchemin@gmail.com,df00f0e7abd3906ec96cb9b8e8fc938d90de69d5,"docs: facelift the docs (#20180)
+
+* docs: facelift the docs
+
+* lint
+
+* license headers",bec638a6498542ae57b84d3c5ad558fef736a671,[20180]
+Phillip Kelley-Dotson,pkelleydotson@yahoo.com,6f0d53eed8eaf085a6d0a76f68e50c7733754a3d,"feat: add modfied col and timezone info to schedule col (#20165)
+
+* feat: add modfied and timezone to to schedule col
+
+* test if test works
+
+* udpate test
+
+* fix test",bf3bc343a896758712ad9defb6facbea74db497d,[20165]
+Rui Zhao,105950525+zhaorui2022@users.noreply.github.com,2a45be39968ad978748e541c08b8ab7c6daa1526,"fix(embedded): Referecing local variable response before initialization (#20263)
+
+Co-authored-by: Rui Zhao <zhaorui@dropbox.com>",1bd7ac5887d49b9e5b0c47bab387c2ce155443cd,[20263]
+Michael S. Molina,70410625+michael-s-molina@users.noreply.github.com,b110581b9602d021bf43782f444b8a83cfb20009,chore: Adjust release emails (#20289),c64dfdbb61592a4e6f954b1695b9529e24f7ae17,[20289]
+Yongjie Zhao,yongjie.zhao@gmail.com,27c3ef1ed5d7edb9918305573d9de9b8b5f4fde8,chore: remove unused codes for samples (#20272),9ac6761d8297645af0ad0314cb629502e8c84207,[20272]
+Joe Li,joe@preset.io,b650a1d47cfc1752e2c6c330295f8b5a214a2577,"chore(deps): bump numpy 1.22.1 and PyJWT to 2.4.0 (#20287)
+
+* setting numpy 1.22.1 and PyJWT to 2.4.0
+
+* requirements.txt
+
+Co-authored-by: Arash <arash.afghahi@gmail.com>",189808900385bc0f834cae22240ec160e0b11277,[20287]
+Craig Rueda,craig@craigrueda.com,d1c24f81f2989976728a49753961deb77ebec427,"chore(migrations): Renaming migration files so that they're easier to keep track of (#20284)
+
+* Renaming migration files so that they're easier to keep track of
+
+* Fixing broken import
+
+* Fixing broken import again
+
+* Fixing broken tests",35f52c08ae51ba4f05eb4d17587502f2f89cf179,[20284]
+Lyndsi Kay Williams,55605634+lyndsiWilliams@users.noreply.github.com,ba0c37d3df85b1af39404af1d578daeb0ff2d278,"feat(explore): Frontend implementation of dataset creation from infobox (#19855)
+
+* Frontend implementation of create dataset from infobox
+
+* Fixed sl_dataset type
+
+* Fix test
+
+* Fixed sl_dataset type (forgot to save)
+
+* RTL testing
+
+* Adjusted styling/text on infobox and save dataset modal
+
+* Appease lint
+
+* Make infobox invisible and fix tests
+
+* Remove unnecessary placeholder
+
+* Move types to sql lab
+
+* Moved logic into save dataset modal
+
+* Change DatasourceMeta type to Dataset
+
+* Add ExploreDatasource union type to save dataset modal
+
+* Get user info from redux inside save dataset modal
+
+* Addressed comments
+
+* Adjusting to new query type
+
+* Fixed save dataset in explore and union type
+
+* Added testing
+
+* Defined d for queries
+
+* Remove dataset from SaveDatasetModal
+
+* Clarify useSelector parameter
+
+* Fix dndControls union type
+
+* Fix shared-controls union type
+
+* Fix controlPanel union type
+
+* Move ExploreRootState to explore type file
+
+* Remove unnecessary testing playground
+
+* Move datasource type check in DatasourcePanel to a function
+
+* Make all sqllab Query imports reference @superset-ui/core Query type
+
+* Deconstruct query props in ResultSet
+
+* Fix union type in /legacy-plugin-chart-heatmap/src/controlPanel
+
+* Change SaveDatasetModal tests to RTL
+
+* Cleaned datasourceTypeCheck
+
+* Fix infobox styling
+
+* Fix SaveDatasetModal test
+
+* Fix query fixture in sqllab and Query type in SaveDatasetModal test
+
+* Fix Query type and make test query fixture
+
+* Added columns to Query type, separated results property, created QueryResponse union type, and fixed all types affected
+
+* Fixed a couple missed broken types
+
+* Added ExploreDatasource to SqlLab type file
+
+* Removed unneeded Query import from DatasourcePanel
+
+* Address PR comments
+
+* Fix columnChoices
+
+* Fix all incorrect column property checks
+
+* Fix logic on dndGroupByControl
+
+* Dry up savedMetrics type check
+
+* Fixed TIME_COLUMN_OPTION
+
+* Dried savedMetrics type check even further
+
+* Change savedMetricsTypeCheck to defineSavedMetrics
+
+* Change datasourceTypeCheck to isValidDatasourceType
+
+* Fix Query path in groupByControl
+
+* dnd_granularity_sqla now sorts Query types with is_dttm at the top
+
+* Fixed/cleaned query sort
+
+* Add sortedQueryColumns and proper optional chaining to granularity_sqla
+
+* Move testQuery to core-ui, add test coverage for Queries in columnChoices
+
+* Moved DEFAULT_METRICS to core-ui and wrote a test for defineSavedMetrics
+
+* Add license and clean dataset test object
+
+* Change DatasourceType.Dataset to dataset",1d9f975d5371c887be7610ac557961efb6713c4f,[19855]
+Joe Li,joe@preset.io,d3670f1472b85c3d5a8f6051169791d328a96792,"chore(deps): pinning pyjwt to 2.4.0 (#20297)
+
+* pinning pyjwt to 2.4.0
+
+* Updating the max version based on PR comments
+
+* Update setup.py
+
+Co-authored-by: AAfghahi <48933336+AAfghahi@users.noreply.github.com>",03d06e3ff45b908fcbec71ea659b4e279b8c2342,[20297]
+Yongjie Zhao,yongjie.zhao@gmail.com,8e46ae5c6aecaf82efab154e03f527dc469fd3d2,chore: superset-ui/core code coverage (#20304),8199db922f09eb374d979b238d038b74ccd03a54,[20304]
+Stephen Liu,750188453@qq.com,9f02ff656d63e537c06822657dcfc2ff46f70e67,"fix(plugin-chart-echarts): [feature-parity] apply button of annotation layer doesn't work as expected (#19761)
+
+* fix(plugin-chart-echarts): [feature-parity] apply button of annotation layer does't work
+
+* fix: lint
+
+* fix: test",5f18d11213d015782c8400f9c92b322e23cc10ef,[19761]
+Reese,10563996+reesercollins@users.noreply.github.com,a57ed76e728958447e1f05445519ff5c0774031b,Fix faulty datetime parser regex (#20290),d4401ef91fb0620e364d9964b343260275c1ce1f,[20290]
+Étienne Boisseau-Sierra,37387755+EBoisseauSierra@users.noreply.github.com,80be1ce6575fdcef7f47b8136c9b91bd7f9ad5d7,"docs: Detail how to use Jinja parameters (#20308)
+
+We expand the example to show how to use the `from_dttm` and `to_dttm`
+Jinja parameters in logic blocks (e.g. `{% if … %}`) and underline when
+to use the double braces and when not to.
+
+All this because, well, *one* could lost quite an extensive amount of
+time figuring this all out (-_-"")
+
+Signed-off-by: Étienne Boisseau-Sierra <etienne.boisseau-sierra@unipart.io>",0d734787949b119818efaeaa60c6fbb7b031b816,[20308]
+Hugh A. Miles II,hughmil3s@gmail.com,b6c11f2b971abd45281dafa0ac0b105e9d3ba6db,"fix: Alpha are unable to perform a second modification to a Dataset when in Explore (#20296)
+
+* handle payload coming back from save
+
+* address concerns",5f85a011860384d7b59896fa8a278d10b538110f,[20296]
+Michael S. Molina,70410625+michael-s-molina@users.noreply.github.com,0238492df71a72a54601c43d4075b65551d053a0,docs: Updates CHANGELOG.md with 1.5.1 fixes (#20307),8d55773de75fd5aa5ab9b4194bb50138bedf617c,[20307]
+Stephen Liu,750188453@qq.com,eab0009101a295acf4d8d31df8a57f8fe0deb517,"feat(plugin-chart-echarts): [feature-parity] support extra control for the area chart V2 (#16493)
+
+* feat(echarts): [feature-parity] support extra control
+
+* add extra control for plugin
+
+* refactor: extract ExtraControl
+
+* fix: lint
+
+* fix some problems",a389efbf3ab539be1284079a99915033cb1855c9,[16493]
+Diego Medina,diegomedina24@gmail.com,5bfc95e79e89961967ba4acc8d24131157ccd16b,"feat: When editing the label/title in the Metrics popover, hitting Enter should save what you've typed (#19898)
+
+* feature: When editing the label/title in the Metrics popover, hitting Enter should save what you've typed
+
+* Apply emotion templating to input/input labels",ff41b170bcd5c8a7d23ac6fa58f38d61e21dfc5f,[19898]
+smileydev,47900232+prosdev0107@users.noreply.github.com,1e5cacda8f939874bc05832234f24579b7400c3a,fix(explore): make to fix the issue of explore error broken when see more/less (#20282),508e6fe5b5371dbe46ed93cc7b2de86606bb8ff1,[20282]
+Yongjie Zhao,yongjie.zhao@gmail.com,fd129873ceeb74dc2e59d9b94ed1c9d006f1386c,feat: multiple results pane on explore and dashboard (#20277),7ca6371e9d82aa24e79510bdb6188353fe146b91,[20277]
